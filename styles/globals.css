@@ -1,9 +1,30 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+/* @import url("https://fonts.googleapis.com/css2?family=Water+Brush&display=swap"); */
 
-* {
-  box-sizing: border-box;
-  padding: 0;
-  margin: 0;
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  background-color: #ff7af2;
+}
+
+.text {
+  font-family: "The Nautigal", sans-serif;
+  font-size: 3rem;
+  font-style: oblique;
+}
+
+.main-nav {
+  background-color: #f89aee;
+}
+
+footer {
+  background-color: #ff7af2;
+}
+
+img {
+  border-radius: 30%;
 }
