@@ -1,0 +1,21 @@
+.horizontal-scroll {
+  display: grid;
+  grid-auto-flow: column;
+  overflow-x: auto;
+  overscroll-behavior-inline: contain;
+  grid-auto-columns: 27%;
+  justify-content: start;
+  justify-items: center;
+  gap: 2%;
+}
+
+.horizontal-scroll::-webkit-scrollbar {
+  border-radius: 10px;
+  background-color: #f89aee;
+  height: 1vh;
+}
+
+.horizontal-scroll::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background-color: #f944e7;
+}
