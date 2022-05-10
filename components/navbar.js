@@ -7,44 +7,56 @@ const Navbar = () => {
       <section className="flex items-center flex-col justify-between p-2 text main-nav font-semibold">
         <h1>Salong Orchid</h1>
         <div className="flex">
-          <div className="mr-3">
-            <Image
-              src="/facebook.png"
-              alt="facebook logo"
-              width={50}
-              height={50}
-            />
+          <div className="mr-3 hover:drop-shadow-xl ">
+            <Link href={"/"}>
+              <a>
+                <Image
+                  src="/facebook.png"
+                  alt="facebook logo"
+                  width={50}
+                  height={50}
+                />
+              </a>
+            </Link>
           </div>
-          <div className="mr-3">
-            <Image
-              src="/snapchat.png"
-              alt="snapchat logo"
-              width={50}
-              height={50}
-            />
+          <div className="mr-3 hover:drop-shadow-xl ">
+            <Link href={"/"}>
+              <a>
+                <Image
+                  src="/snapchat.png"
+                  alt="snapchat logo"
+                  width={50}
+                  height={50}
+                />
+              </a>
+            </Link>
           </div>
-          <div>
-            <Image
-              src="/instagram.png"
-              alt="instagram logo"
-              width={50}
-              height={50}
-            />
+          <div className="hover:drop-shadow-xl ">
+            <Link href={"/"}>
+              <a>
+                <Image
+                  src="/instagram.png"
+                  alt="instagram logo"
+                  width={50}
+                  height={50}
+                />
+              </a>
+            </Link>
           </div>
         </div>
       </section>
       <nav className="text-center space-x-2 text-xl italic">
         <Link href="/">
-          <a>Home</a>
+          <a className="hover:underline">Home</a>
         </Link>
         <Link href="/themes">
-          <a>Theme</a>
+          <a className="hover:underline">Theme</a>
         </Link>
         <Link href="/prices">
-          <a>Prices</a>
+          <a className="hover:underline">Prices</a>
         </Link>
         <Link href="/booking">
-          <a>Book</a>
+          <a className="hover:underline">Book</a>
         </Link>
       </nav>
     </>

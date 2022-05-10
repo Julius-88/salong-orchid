@@ -40,7 +40,9 @@ nav {
 footer {
   background-color: #ff7af2;
   bottom: 0;
-  position: absolute;
+  left: 0;
+  right: 0;
+  position: fixed;
   width: 100%;
 }
 

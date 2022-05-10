@@ -27,71 +27,65 @@ export default function Home() {
           to contact me if you have any questions
         </p>
         <br />
-        <div className="horizontal-scroll pt-20 md:auto-cols-fr ">
+        <div className="horizontal-scroll pt-20 md:auto-cols-fr  ">
           <Link href={"/themes"}>
-            <a>
+            <a className="hover:drop-shadow-xl">
               {" "}
               <Image
-                src="/preview.jpg"
+                src="/previewWedding.jpg"
                 alt="#"
                 width={200}
                 height={200}
               ></Image>
+              <p>Wedding</p>{" "}
             </a>
           </Link>
           <Link href={"/themes"}>
-            <a>
+            <a className="hover:drop-shadow-xl">
               {" "}
               <Image
-                src="/preview.jpg"
+                src="/previewHalloween.jpg"
                 alt="#"
                 width={200}
                 height={200}
               ></Image>
+              <p>Halloween</p>{" "}
             </a>
           </Link>
           <Link href={"/themes"}>
-            <a>
+            <a className="hover:drop-shadow-xl">
               {" "}
               <Image
-                src="/preview.jpg"
+                src="/previewMidsommar.jpg"
                 alt="#"
                 width={200}
                 height={200}
               ></Image>
+              <p>Midsummer</p>{" "}
             </a>
           </Link>
           <Link href={"/themes"}>
-            <a>
+            <a className="hover:drop-shadow-xl">
               {" "}
               <Image
-                src="/preview.jpg"
+                src="/previewPåsk.jpg"
                 alt="#"
                 width={200}
                 height={200}
               ></Image>
+              <p>Easter</p>{" "}
             </a>
           </Link>
           <Link href={"/themes"}>
-            <a>
+            <a className="hover:drop-shadow-xl">
               {" "}
               <Image
-                src="/preview.jpg"
+                src="/previewNaglar.jpg"
                 alt="#"
                 width={200}
                 height={200}
               ></Image>
-            </a>
-          </Link>
-          <Link href={"/themes"}>
-            <a>
-              {" "}
-              <Image
-                src="/preview.jpg"
-                alt="#"
-                width={200}
-                height={200}
-              ></Image>
+              <p>Nails</p>{" "}
             </a>
           </Link>
         </div>
