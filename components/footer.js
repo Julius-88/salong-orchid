@@ -5,7 +5,6 @@ const Footer = () => {
     <footer className="grid grid-cols-2 justify-items-center items-center font-bold ">
       <div className="text-xs px-4 md:text-base">
         <p>Questions? Contact me</p>
-        <p>072-3261128</p>
         <p className="text-blue-500">
           <Link href={"/"}>
             <a> salongorchid@gmail.com</a>
@@ -13,7 +12,7 @@ const Footer = () => {
         </p>
       </div>
       <div>
-        <button className="font-bold button m-2 hover:drop-shadow-xl">
+        <button className="font-bold button m-2 hover:bg-fuchsia-300">
           Book Here
         </button>
       </div>
