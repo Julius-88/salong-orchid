@@ -47,16 +47,16 @@ const Navbar = () => {
       </section>
       <nav className="text-center space-x-2 text-xl italic">
         <Link href="/">
-          <a className="hover:underline">Home</a>
+          <a className="hover:underline decoration-fuchsia-300">Home</a>
         </Link>
         <Link href="/themes">
-          <a className="hover:underline">Theme</a>
+          <a className="hover:underline decoration-fuchsia-300">Catalog</a>
         </Link>
         <Link href="/prices">
-          <a className="hover:underline">Prices</a>
+          <a className="hover:underline decoration-fuchsia-300">Prices</a>
         </Link>
         <Link href="/booking">
-          <a className="hover:underline">Book</a>
+          <a className="hover:underline decoration-fuchsia-300">Book</a>
         </Link>
       </nav>
     </>

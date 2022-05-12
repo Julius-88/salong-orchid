@@ -33,6 +33,10 @@
   border-radius: 10px;
 }
 
+.button:hover {
+  background-color: rgb(240 171 252);
+}
+
 .background {
   background-image: url("/orchidmain.jpg");
   background-size: cover;

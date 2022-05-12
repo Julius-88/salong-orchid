@@ -2,6 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 @import "./assorted.css";
+@import "./backgroundImage.css";
 
 * {
   margin: 0;
@@ -16,6 +17,7 @@ body {
   background-attachment: fixed;
   background-position: center;
   background-color: black;
+  /* padding-bottom: 60px; */
 }
 
 nav {
@@ -40,10 +42,9 @@ nav {
 footer {
   background-color: #ff7af2;
   bottom: 0;
-  left: 0;
-  right: 0;
   position: fixed;
   width: 100%;
+  height: 60px;
 }
 
 img {

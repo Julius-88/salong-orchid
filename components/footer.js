@@ -12,9 +12,7 @@ const Footer = () => {
         </p>
       </div>
       <div>
-        <button className="font-bold button m-2 hover:bg-fuchsia-300">
-          Book Here
-        </button>
+        <button className="font-bold button">Book Here</button>
       </div>
     </footer>
   );

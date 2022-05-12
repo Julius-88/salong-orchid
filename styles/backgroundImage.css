@@ -1,0 +1,18 @@
+.wedding {
+  background-image: url("/bröllop-bakgrund.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-color: black;
+  height: 100vh;
+}
+.easter {
+  background-image: url("/easter-bakgrund.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-color: black;
+  height: 100vh;
+}

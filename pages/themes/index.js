@@ -1,10 +1,96 @@
 import Link from "next/dist/client/link";
+import Image from "next/dist/client/image";
 
 const Themes = () => {
   return (
-    <div>
-      <h1 className="font-bold underline text-center pt-20">Tema</h1>
-    </div>
+    <section className="grid grid-cols-2 px-3 md:grid-cols-3 pt-20 pb-16 gap-2 md:gap-20 2xl:gap-20">
+      <div className="grid justify-items-center">
+        <Link href="/themes/wedding">
+          <a>
+            <div>
+              <Image
+                src="/previewWedding.jpg"
+                alt="#"
+                width={200}
+                height={200}
+                className="rounded"
+              ></Image>
+            </div>
+          </a>
+        </Link>
+        <p className="cursor-default">Wedding</p>
+      </div>
+      <div className="grid justify-items-center">
+        <Link href="/themes/easter">
+          <a>
+            <Image
+              src="/p-one.jpg"
+              alt="#"
+              width={200}
+              height={200}
+              className="rounded"
+            ></Image>
+          </a>
+        </Link>
+        <p className="cursor-default">Easter</p>
+      </div>
+      <div className="grid justify-items-center">
+        <Link href="/themes/halloween">
+          <a>
+            <Image
+              src="/h-four.jpg"
+              alt="#"
+              width={200}
+              height={200}
+              className="rounded"
+            ></Image>
+          </a>
+        </Link>
+        <p className="cursor-default">Halloween</p>
+      </div>
+      <div className="grid justify-items-center">
+        <Link href="/themes/midsommar">
+          <a>
+            <Image
+              src="/m-one.jpg"
+              alt="#"
+              width={200}
+              height={200}
+              className="rounded"
+            ></Image>
+          </a>
+        </Link>
+        <p className="cursor-default">Midsommar</p>
+      </div>
+      <div className="grid justify-items-center">
+        <Link href="/themes/nails">
+          <a>
+            <Image
+              src="/n-one.jpg"
+              alt="#"
+              width={200}
+              height={200}
+              className="rounded"
+            ></Image>
+          </a>
+        </Link>
+        <p className="cursor-default">Nails</p>
+      </div>
+      <div className="grid justify-items-center">
+        <Link href="/themes/hair">
+          <a>
+            <Image
+              src="/hår.jpg"
+              alt="#"
+              width={200}
+              height={200}
+              className="rounded"
+            ></Image>
+          </a>
+        </Link>
+        <p className="cursor-default">Hair</p>
+      </div>
+    </section>
   );
 };
 export default Themes;
