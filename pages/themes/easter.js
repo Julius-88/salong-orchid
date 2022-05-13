@@ -5,77 +5,51 @@ import BookHere, { BackButtons } from "../../components/buttons";
 const Easter = () => {
   return (
     <>
-      <section className=" font-bold text-purple-300 text-center py-5 px-10 easter">
-        <div className="horizontal-scroll pt-2 2xl:pt-20 md:auto-cols-fr  ">
-          <div className="hover:animate-pulse cursor-pointer ">
+      <section className=" font-bold text-purple-500 text-center py-24 px-10 easter">
+        <div className="horizontal-scroll pt-20 xl:pt-5 2xl:pt-8 md:auto-cols-fr  ">
+          <figure>
             {" "}
-            <Image src="/bh-1.jpg" alt="#" width={200} height={200}></Image>
-          </div>
+            <Image src="/ps-1.jpg" alt="#" width={200} height={200}></Image>
+          </figure>
 
-          <Link href={"/themes"}>
-            <a className="hover:drop-shadow-xl">
-              {" "}
-              <Image src="/bh-2.jpg" alt="#" width={200} height={200}></Image>
-            </a>
-          </Link>
-          <Link href={"/themes"}>
-            <a className="hover:drop-shadow-xl">
-              {" "}
-              <Image src="/bh-3.jpg" alt="#" width={200} height={200}></Image>
-            </a>
-          </Link>
-        </div>
-        <p className="text-purple-400">Hair</p>
+          <figure>
+            {" "}
+            <Image src="/ps-2.jpg" alt="#" width={200} height={200}></Image>
+          </figure>
 
-        <div className="horizontal-scroll pt-2  2xl:pt-8 md:auto-cols-fr  ">
-          <Link href={"/themes"}>
-            <a className="hover:drop-shadow-xl">
-              {" "}
-              <Image src="/bs-1.jpg" alt="#" width={200} height={200}></Image>
-            </a>
-          </Link>
-          <Link href={"/themes"}>
-            <a className="hover:drop-shadow-xl">
-              {" "}
-              <Image src="/bs-2.jpg" alt="#" width={200} height={200}></Image>
-            </a>
-          </Link>
-          <Link href={"/themes"}>
-            <a className="hover:drop-shadow-xl">
-              {" "}
-              <Image src="/bs-3.jpg" alt="#" width={200} height={200}></Image>
-            </a>
-          </Link>
-          <Link href={"/themes"}>
-            <a className="hover:drop-shadow-xl">
-              {" "}
-              <Image src="/bs-4.jpg" alt="#" width={200} height={200}></Image>
-            </a>
-          </Link>
+          <figure>
+            {" "}
+            <Image src="/ps-3.jpg" alt="#" width={200} height={200}></Image>
+          </figure>
+
+          <figure>
+            {" "}
+            <Image src="/ps-4.jpg" alt="#" width={200} height={200}></Image>
+          </figure>
         </div>
-        <p>Makeup</p>
-        <div className="horizontal-scroll pt-2 2xl:pt-24  md:auto-cols-fr ">
-          <Link href={"/themes"}>
-            <a className="hover:drop-shadow-xl">
-              {" "}
-              <Image src="/bn-1.jpg" alt="#" width={200} height={200}></Image>
-            </a>
-          </Link>
-          <Link href={"/themes"}>
-            <a className="hover:drop-shadow-xl">
-              {" "}
-              <Image src="/bn-2.jpg" alt="#" width={200} height={200}></Image>
-            </a>
-          </Link>
-          <Link href={"/themes"}>
-            <a className="hover:drop-shadow-xl">
-              {" "}
-              <Image src="/bn-3.jpg" alt="#" width={200} height={200}></Image>
-            </a>
-          </Link>
+        <p className=" text-sm md:text-base lg:text-xl">Makeup</p>
+        <div className="horizontal-scroll pt-14 2xl:pt-32  md:auto-cols-fr ">
+          <figure>
+            {" "}
+            <Image src="/pn-1.jfif" alt="#" width={200} height={200}></Image>
+          </figure>
+
+          <figure>
+            {" "}
+            <Image src="/pn-2.jfif" alt="#" width={200} height={200}></Image>
+          </figure>
+
+          <figure>
+            {" "}
+            <Image src="/pn-3.jfif" alt="#" width={200} height={200}></Image>
+          </figure>
+          <figure>
+            {" "}
+            <Image src="/pn-4.jfif" alt="#" width={200} height={200}></Image>
+          </figure>
         </div>
-        <p className="text-sm md:text-base ">Nails</p>
-        <div className="grid justify-evenly grid-flow-col text-xs gap-2 pt-1 md:pt-7 lg:pt-5 xl:pt-4 xl:text-base 2xl:text 2xl:pt-28 ">
+        <p className="text-sm md:text-base lg:text-xl ">Nails</p>
+        <div className="grid justify-evenly grid-flow-col text-xs gap-2 pt-1 md:pt-7 lg:pt-5 xl:pt-10 lg:text-base xl:text-lg 2xl:pt-28 ">
           <BackButtons /> <BookHere />
         </div>
       </section>

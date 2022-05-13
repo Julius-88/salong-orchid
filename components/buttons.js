@@ -1,8 +1,14 @@
+import Link from "next/link";
+
 export const BackButtons = () => {
   return (
     <>
       <div>
-        <button className="button text-black">Back to Catalog</button>
+        <Link href="/themes">
+          <a>
+            <button className="button text-black">Back to Catalog</button>
+          </a>
+        </Link>
       </div>
     </>
   );
