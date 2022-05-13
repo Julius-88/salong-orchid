@@ -1,4 +1,3 @@
-import Link from "next/link";
 import Image from "next/dist/client/image";
 import BookHere, { BackButtons } from "../../components/buttons";
 
@@ -6,7 +5,7 @@ const Easter = () => {
   return (
     <>
       <section className=" font-bold text-purple-500 text-center py-24 px-10 easter">
-        <div className="horizontal-scroll pt-20 xl:pt-5 2xl:pt-8 md:auto-cols-fr  ">
+        <div className="horizontal-scroll pt-16 xl:pt-5 2xl:pt-8 md:auto-cols-fr  ">
           <figure>
             {" "}
             <Image src="/ps-1.jpg" alt="#" width={200} height={200}></Image>
