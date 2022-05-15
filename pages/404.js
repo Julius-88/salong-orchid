@@ -9,7 +9,7 @@ const Error = () => {
     setTimeout(() => {
       router.push("/");
     }, 3000);
-  }, []);
+  }, [router]);
 
   return (
     <div className="font-bold underline text-center pt-20">

@@ -1,7 +1,7 @@
 import React from "react";
 import { useForm, ValidationError } from "@formspree/react";
 
-function modal({ closeModal }) {
+function Modal({ closeModal }) {
   const [state, handleSubmit] = useForm("mzboyabl");
 
   if (state.succeeded) {
@@ -71,4 +71,4 @@ function modal({ closeModal }) {
   );
 }
 
-export default modal;
+export default Modal;
