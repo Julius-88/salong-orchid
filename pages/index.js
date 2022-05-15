@@ -56,7 +56,7 @@ export default function Home() {
             <a className="hover:drop-shadow-xl">
               {" "}
               <Image
-                src="/previewMidsommar.jpg"
+                src="/previewmidsommar.jpg"
                 alt="#"
                 width={200}
                 height={200}
@@ -68,7 +68,7 @@ export default function Home() {
             <a className="hover:drop-shadow-xl">
               {" "}
               <Image
-                src="/previewPåsk.jpg"
+                src="/previeweaster.jpg"
                 alt="#"
                 width={200}
                 height={200}
