@@ -7,7 +7,7 @@ const Navbar = () => {
       <section className="flex items-center flex-col justify-between p-2 text main-nav font-semibold">
         <h1>Salong Orchid</h1>
         <div className="flex">
-          <div className="mr-3 hover:drop-shadow-xl ">
+          <div className="mr-3 hover:animate-ping ">
             <Link href={"/"}>
               <a>
                 <Image
@@ -19,7 +19,7 @@ const Navbar = () => {
               </a>
             </Link>
           </div>
-          <div className="mr-3 hover:drop-shadow-xl ">
+          <div className="mr-3  hover:animate-ping ">
             <Link href={"/"}>
               <a>
                 <Image
@@ -31,7 +31,7 @@ const Navbar = () => {
               </a>
             </Link>
           </div>
-          <div className="hover:drop-shadow-xl ">
+          <div className="hover:animate-ping ">
             <Link href={"/"}>
               <a>
                 <Image
@@ -45,7 +45,7 @@ const Navbar = () => {
           </div>
         </div>
       </section>
-      <nav className="text-center space-x-2 text-xl italic">
+      <nav className="text-center font-bold space-x-2 text-xl italic">
         <Link href="/">
           <a className="hover:underline decoration-fuchsia-300">Home</a>
         </Link>

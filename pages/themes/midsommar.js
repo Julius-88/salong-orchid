@@ -11,12 +11,12 @@ const Midsommar = () => {
             <Image src="/ms-1.jpg" alt="#" width={200} height={200}></Image>
           </figure>
 
-          <figure>
+          <figure className="hidden">
             {" "}
             <Image src="/ms-2.jpg" alt="#" width={200} height={200}></Image>
           </figure>
 
-          <figure>
+          <figure className="hidden">
             {" "}
             <Image src="/ms-3.jpg" alt="#" width={200} height={200}></Image>
           </figure>
