@@ -14,8 +14,7 @@ const Footer = () => {
               setOpenModal(true);
             }}
           >
-            {" "}
-            salongorchid@gmail.com
+            Click Here!
           </button>
         </p>
         {openModal && <Modal closeModal={setOpenModal}> </Modal>}
