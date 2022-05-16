@@ -9,7 +9,7 @@ const Themes = () => {
           <a>
             <div>
               <Image
-                src="/previewWedding.jpg"
+                src="/previewNaglar.jpg"
                 alt="#"
                 width={200}
                 height={200}
@@ -24,7 +24,7 @@ const Themes = () => {
         <Link href="/themes/easter">
           <a>
             <Image
-              src="/p-one.jpg"
+              src="/previewNaglar.jpg"
               alt="#"
               width={200}
               height={200}
@@ -38,7 +38,7 @@ const Themes = () => {
         <Link href="/themes/halloween">
           <a>
             <Image
-              src="/h-four.jpg"
+              src="/previewNaglar.jpg"
               alt="#"
               width={200}
               height={200}
@@ -52,7 +52,7 @@ const Themes = () => {
         <Link href="/themes/midsommar">
           <a>
             <Image
-              src="/m-one.jpg"
+              src="/previewNaglar.jpg"
               alt="#"
               width={200}
               height={200}
@@ -66,7 +66,7 @@ const Themes = () => {
         <Link href="/themes/nails">
           <a>
             <Image
-              src="/n-one.jpg"
+              src="/previewNaglar.jpg"
               alt="#"
               width={200}
               height={200}
@@ -80,7 +80,7 @@ const Themes = () => {
         <Link href="/themes/hair">
           <a>
             <Image
-              src="/hår.jpg"
+              src="/previewNaglar.jpg"
               alt="#"
               width={200}
               height={200}

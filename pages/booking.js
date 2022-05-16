@@ -1,9 +1,9 @@
 const Booking = () => {
   return (
     <>
-      <section className="test-two">
+      <section className="bookingParent">
         <iframe
-          className="test"
+          className="bookingIframe"
           src="https://airtable.com/embed/shr4WaXoaVGABu622?backgroundColor=blue"
         ></iframe>
       </section>
