@@ -10,19 +10,34 @@ const Horizontal = () => {
           <Link href={"/themes"}>
             <a className="hover:drop-shadow-xl">
               {" "}
-              <Image src="/bh-1.jpg" alt="#" width={200} height={200}></Image>
+              <Image
+                src="/previewNaglar.jpg"
+                alt="#"
+                width={200}
+                height={200}
+              ></Image>
             </a>
           </Link>
           <Link href={"/themes"}>
             <a className="hover:drop-shadow-xl">
               {" "}
-              <Image src="/bh-2.jpg" alt="#" width={200} height={200}></Image>
+              <Image
+                src="/previewNaglar.jpg"
+                alt="#"
+                width={200}
+                height={200}
+              ></Image>
             </a>
           </Link>
           <Link href={"/themes"}>
             <a className="hover:drop-shadow-xl">
               {" "}
-              <Image src="/bh-3.jpg" alt="#" width={200} height={200}></Image>
+              <Image
+                src="/previewNaglar.jpg"
+                alt="#"
+                width={200}
+                height={200}
+              ></Image>
             </a>
           </Link>
         </div>
@@ -32,25 +47,45 @@ const Horizontal = () => {
           <Link href={"/themes"}>
             <a className="hover:drop-shadow-xl">
               {" "}
-              <Image src="/bs-1.jpg" alt="#" width={200} height={200}></Image>
+              <Image
+                src="/previewNaglar.jpg"
+                alt="#"
+                width={200}
+                height={200}
+              ></Image>
             </a>
           </Link>
           <Link href={"/themes"}>
             <a className="hover:drop-shadow-xl">
               {" "}
-              <Image src="/bs-2.jpg" alt="#" width={200} height={200}></Image>
+              <Image
+                src="/previewNaglar.jpg"
+                alt="#"
+                width={200}
+                height={200}
+              ></Image>
             </a>
           </Link>
           <Link href={"/themes"}>
             <a className="hover:drop-shadow-xl">
               {" "}
-              <Image src="/bs-3.jpg" alt="#" width={200} height={200}></Image>
+              <Image
+                src="/previewNaglar.jpg"
+                alt="#"
+                width={200}
+                height={200}
+              ></Image>
             </a>
           </Link>
           <Link href={"/themes"}>
             <a className="hover:drop-shadow-xl">
               {" "}
-              <Image src="/bs-4.jpg" alt="#" width={200} height={200}></Image>
+              <Image
+                src="/previewNaglar.jpg"
+                alt="#"
+                width={200}
+                height={200}
+              ></Image>
             </a>
           </Link>
         </div>
@@ -59,19 +94,34 @@ const Horizontal = () => {
           <Link href={"/themes"}>
             <a className="hover:drop-shadow-xl">
               {" "}
-              <Image src="/bn-1.jpg" alt="#" width={200} height={200}></Image>
+              <Image
+                src="/previewNaglar.jpg"
+                alt="#"
+                width={200}
+                height={200}
+              ></Image>
             </a>
           </Link>
           <Link href={"/themes"}>
             <a className="hover:drop-shadow-xl">
               {" "}
-              <Image src="/bn-2.jpg" alt="#" width={200} height={200}></Image>
+              <Image
+                src="/previewNaglar.jpg"
+                alt="#"
+                width={200}
+                height={200}
+              ></Image>
             </a>
           </Link>
           <Link href={"/themes"}>
             <a className="hover:drop-shadow-xl">
               {" "}
-              <Image src="/bn-3.jpg" alt="#" width={200} height={200}></Image>
+              <Image
+                src="/previewNaglar.jpg"
+                alt="#"
+                width={200}
+                height={200}
+              ></Image>
             </a>
           </Link>
         </div>

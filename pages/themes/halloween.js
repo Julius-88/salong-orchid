@@ -8,42 +8,82 @@ const Halloween = () => {
         <div className="horizontal-scroll pt-16 xl:pt-5 2xl:pt-8 md:auto-cols-fr  ">
           <figure>
             {" "}
-            <Image src="/hs-1.jpg" alt="#" width={200} height={200}></Image>
+            <Image
+              src="/previewNaglar.jpg"
+              alt="#"
+              width={200}
+              height={200}
+            ></Image>
           </figure>
 
           <figure>
             {" "}
-            <Image src="/hs-2.jpg" alt="#" width={200} height={200}></Image>
+            <Image
+              src="/previewNaglar.jpg"
+              alt="#"
+              width={200}
+              height={200}
+            ></Image>
           </figure>
 
           <figure>
             {" "}
-            <Image src="/hs-3.jpg" alt="#" width={200} height={200}></Image>
+            <Image
+              src="/previewNaglar.jpg"
+              alt="#"
+              width={200}
+              height={200}
+            ></Image>
           </figure>
           <figure>
             {" "}
-            <Image src="/hs-4.jpg" alt="#" width={200} height={200}></Image>
+            <Image
+              src="/previewNaglar.jpg"
+              alt="#"
+              width={200}
+              height={200}
+            ></Image>
           </figure>
           <figure>
             {" "}
-            <Image src="/hs-5.jpg" alt="#" width={200} height={200}></Image>
+            <Image
+              src="/previewNaglar.jpg"
+              alt="#"
+              width={200}
+              height={200}
+            ></Image>
           </figure>
         </div>
         <p className=" text-sm md:text-base lg:text-xl">Makeup</p>
         <div className="horizontal-scroll pt-14 2xl:pt-32  md:auto-cols-fr ">
           <figure>
             {" "}
-            <Image src="/hn-1.jfif" alt="#" width={200} height={200}></Image>
+            <Image
+              src="/previewNaglar.jpg"
+              alt="#"
+              width={200}
+              height={200}
+            ></Image>
           </figure>
 
           <figure>
             {" "}
-            <Image src="/hn-2.jfif" alt="#" width={200} height={200}></Image>
+            <Image
+              src="/previewNaglar.jpg"
+              alt="#"
+              width={200}
+              height={200}
+            ></Image>
           </figure>
 
           <figure>
             {" "}
-            <Image src="/hn-3.jfif" alt="#" width={200} height={200}></Image>
+            <Image
+              src="/previewNaglar.jpg"
+              alt="#"
+              width={200}
+              height={200}
+            ></Image>
           </figure>
         </div>
         <p className="text-sm md:text-base lg:text-xl ">Nails</p>
