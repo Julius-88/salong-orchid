@@ -132,3 +132,14 @@
   background-color: rgba(0, 0, 0, 0.5);
   pointer-events: all;
 }
+
+.airtable-embed {
+  position: fixed;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 10px;
+  width: 500px;
+  max-width: 80%;
+  height: 900px;
+}
