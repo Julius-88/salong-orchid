@@ -1,5 +1,6 @@
 import React from "react";
 import { useForm, ValidationError } from "@formspree/react";
+import ReCAPTCHA from "react-google-recaptcha";
 
 function Modal({ closeModal }) {
   const [state, handleSubmit] = useForm("mzboyabl");
@@ -20,7 +21,6 @@ function Modal({ closeModal }) {
       </>
     );
   }
-
   return (
     <>
       <section className="modalBackground">
@@ -28,15 +28,15 @@ function Modal({ closeModal }) {
           <form onSubmit={handleSubmit}>
             <div className="form-group">
               <label htmlFor="firstName"> First Name</label>
-              <input type="text" id="firstName" name="firstName" />
+              <input type="text" id="firstName" name="firstName" required />
             </div>
             <div className="form-group">
               <label htmlFor="lastName">Last Name</label>
-              <input type="text" id="lastName" name="lastName" />
+              <input type="text" id="lastName" name="lastName" required />
             </div>
             <div className="form-group">
               <label htmlFor="email">Email</label>
-              <input type="email" id="email" name="email" />
+              <input type="email" id="email" name="email" required />
             </div>
             <ValidationError
               prefix="Email"
@@ -50,6 +50,7 @@ function Modal({ closeModal }) {
                 id="message"
                 cols="30"
                 rows="10"
+                required
               ></textarea>
             </div>
             <ValidationError
@@ -63,6 +64,10 @@ function Modal({ closeModal }) {
             <button className="buttonModal" type="submit">
               Submit
             </button>
+            <ReCAPTCHA
+              className="pl-10"
+              sitekey="6Lfgt_AfAAAAAHlr3yY9mNvcX57YMTsC9TxGzFGS"
+            />
           </form>
         </div>
       </section>
