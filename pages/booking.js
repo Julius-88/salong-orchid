@@ -1,9 +1,9 @@
 const Booking = () => {
   return (
     <>
-      <section>
+      <section className="test-two">
         <iframe
-          className="airtable-embed w-100% "
+          className="test"
           src="https://airtable.com/embed/shr4WaXoaVGABu622?backgroundColor=blue"
         ></iframe>
       </section>

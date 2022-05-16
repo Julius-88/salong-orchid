@@ -144,3 +144,21 @@
   height: 800px;
   max-height: 80%;
 }
+
+.test {
+  width: 50%;
+  height: 100%;
+}
+
+.test-two {
+  display: flex;
+  height: 100%;
+  justify-content: center;
+}
+
+.hund {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  min-width: 400px;
+}
