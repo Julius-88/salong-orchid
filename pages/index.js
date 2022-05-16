@@ -27,68 +27,94 @@ export default function Home() {
           to contact me if you have any questions
         </p>
         <br />
-        <div className="horizontal-scroll pt-20 md:auto-cols-fr  ">
-          <Link href={"/themes"}>
-            <a className="hover:drop-shadow-xl">
-              {" "}
-              <Image
-                src="/previewWedding.jpg"
-                alt="#"
-                width={200}
-                height={200}
-              ></Image>
-              <p>Wedding</p>{" "}
-            </a>
-          </Link>
-          <Link href={"/themes"}>
-            <a className="hover:drop-shadow-xl">
-              {" "}
-              <Image
-                src="/previewHalloween.jpg"
-                alt="#"
-                width={200}
-                height={200}
-              ></Image>
-              <p>Halloween</p>{" "}
-            </a>
-          </Link>
-          <Link href={"/themes"}>
-            <a className="hover:drop-shadow-xl">
-              {" "}
-              <Image
-                src="/previewmidsommar.jpg"
-                alt="#"
-                width={200}
-                height={200}
-              ></Image>
-              <p>Midsummer</p>{" "}
-            </a>
-          </Link>
-          <Link href={"/themes"}>
-            <a className="hover:drop-shadow-xl">
-              {" "}
-              <Image
-                src="/previeweaster.jpg"
-                alt="#"
-                width={200}
-                height={200}
-              ></Image>
-              <p>Easter</p>{" "}
-            </a>
-          </Link>
-          <Link href={"/themes"}>
-            <a className="hover:drop-shadow-xl">
-              {" "}
-              <Image
-                src="/previewNaglar.jpg"
-                alt="#"
-                width={200}
-                height={200}
-              ></Image>
-              <p>Nails</p>{" "}
-            </a>
-          </Link>
-        </div>
+        <section className="grid grid-cols-2 px-3 md:grid-cols-3 pt-20 pb-16 gap-2 md:gap-20 2xl:gap-20">
+          <div className="grid justify-items-center">
+            <Link href="/themes/wedding">
+              <a>
+                <div>
+                  <Image
+                    src="/previewNaglar.jpg"
+                    alt="#"
+                    width={200}
+                    height={200}
+                    className="rounded"
+                  ></Image>
+                </div>
+              </a>
+            </Link>
+            <p className="cursor-default">Wedding</p>
+          </div>
+          <div className="grid justify-items-center">
+            <Link href="/themes/easter">
+              <a>
+                <Image
+                  src="/previewNaglar.jpg"
+                  alt="#"
+                  width={200}
+                  height={200}
+                  className="rounded"
+                ></Image>
+              </a>
+            </Link>
+            <p className="cursor-default">Easter</p>
+          </div>
+          <div className="grid justify-items-center">
+            <Link href="/themes/halloween">
+              <a>
+                <Image
+                  src="/previewNaglar.jpg"
+                  alt="#"
+                  width={200}
+                  height={200}
+                  className="rounded"
+                ></Image>
+              </a>
+            </Link>
+            <p className="cursor-default">Halloween</p>
+          </div>
+          <div className="grid justify-items-center">
+            <Link href="/themes/midsommar">
+              <a>
+                <Image
+                  src="/previewNaglar.jpg"
+                  alt="#"
+                  width={200}
+                  height={200}
+                  className="rounded"
+                ></Image>
+              </a>
+            </Link>
+            <p className="cursor-default">Midsommar</p>
+          </div>
+          <div className="grid justify-items-center">
+            <Link href="/themes/nails">
+              <a>
+                <Image
+                  src="/previewNaglar.jpg"
+                  alt="#"
+                  width={200}
+                  height={200}
+                  className="rounded"
+                ></Image>
+              </a>
+            </Link>
+            <p className="cursor-default">Nails</p>
+          </div>
+          <div className="grid justify-items-center">
+            <Link href="/themes/hair">
+              <a>
+                <Image
+                  src="/previewNaglar.jpg"
+                  alt="#"
+                  width={200}
+                  height={200}
+                  className="rounded"
+                ></Image>
+              </a>
+            </Link>
+            <p className="cursor-default">Hair</p>
+          </div>
+        </section>
       </section>
     </>
   );
