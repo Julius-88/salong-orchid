@@ -1,8 +1,13 @@
 const Booking = () => {
   return (
-    <div>
-      <h1 className="font-bold underline text-center pt-20">Book Here</h1>
-    </div>
+    <>
+      <section>
+        <iframe
+          className="airtable-embed w-100% "
+          src="https://airtable.com/embed/shr4WaXoaVGABu622?backgroundColor=blue"
+        ></iframe>
+      </section>
+    </>
   );
 };
 export default Booking;
