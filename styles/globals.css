@@ -11,12 +11,11 @@
 }
 
 body {
-  background-image: url("/orchidmain.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
-  background-color: black;
+  background-color: white;
   /* padding-bottom: 60px; */
 }
 
@@ -35,8 +34,15 @@ nav {
 }
 
 .main-nav {
-  background-color: #f89aee;
+  background-image: url("/orchidmain.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-color: black;
+
   font-size: 3rem;
+  /* background: linear-gradient(315deg, #ffffff 0%, #d7e1ec 74%); */
 }
 
 footer {

@@ -6,40 +6,61 @@ const Navbar = () => {
     <>
       <section className="flex items-center flex-col justify-between p-2 text main-nav font-semibold">
         <h1>Salong Orchid</h1>
-        <div className="flex">
-          <div className="mr-3 hover:animate-ping ">
-            <Link href={"/"}>
-              <a>
+        <div className="flex social ">
+          <div
+            className="socialButton"
+            onClick={() => {
+              alert("Coming soon!");
+            }}
+          >
+            <Link href={"#"}>
+              <a className=" socialText flex justify-items-center flex-col ">
                 <Image
+                  className="icon"
                   src="/facebook.png"
                   alt="facebook logo"
                   width={50}
                   height={50}
                 />
+                <span>Facebook</span>
               </a>
             </Link>
           </div>
-          <div className="mr-3  hover:animate-ping ">
-            <Link href={"/"}>
-              <a>
+          <div
+            className="socialButton "
+            onClick={() => {
+              alert("Coming soon!");
+            }}
+          >
+            <Link href={"#"}>
+              <a className=" socialText flex justify-items-center flex-col ">
                 <Image
+                  className="icon"
                   src="/snapchat.png"
                   alt="snapchat logo"
                   width={50}
                   height={50}
                 />
+                <span>Snapchat</span>
               </a>
             </Link>
           </div>
-          <div className="hover:animate-ping ">
-            <Link href={"/"}>
-              <a>
+          <div
+            className="socialButton "
+            onClick={() => {
+              alert("Coming soon!");
+            }}
+          >
+            <Link href={"#"}>
+              <a className=" socialText flex justify-items-center flex-col ">
                 <Image
+                  className="icon"
                   src="/instagram.png"
                   alt="instagram logo"
                   width={50}
                   height={50}
                 />
+                <span>Instagram</span>
               </a>
             </Link>
           </div>
