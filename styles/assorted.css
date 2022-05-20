@@ -73,6 +73,7 @@
   background-color: white;
   width: 500px;
   max-width: 80%;
+  min-width: 300px;
   display: flex;
   justify-content: center;
 }

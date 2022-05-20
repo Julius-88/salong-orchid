@@ -27,13 +27,13 @@ export default function Home() {
           to contact me if you have any questions
         </p>
         <br />
-        <section className="grid grid-cols-2 px-3 md:grid-cols-3 pt-20 pb-16 gap-2 md:gap-20 2xl:gap-20">
+        <section className="grid grid-cols-1 px-3 md:grid-cols-3 pt-20 pb-16 gap-2 md:gap-20 2xl:gap-20">
           <div className="grid justify-items-center">
             <Link href="/themes/wedding">
               <a>
                 <div>
                   <Image
-                    src="/previewNaglar.jpg"
+                    src="/previewWedding.jpg"
                     alt="#"
                     width={200}
                     height={200}
@@ -48,7 +48,7 @@ export default function Home() {
             <Link href="/themes/easter">
               <a>
                 <Image
-                  src="/previewNaglar.jpg"
+                  src="/previewEaster.jpg"
                   alt="#"
                   width={200}
                   height={200}
@@ -62,7 +62,7 @@ export default function Home() {
             <Link href="/themes/halloween">
               <a>
                 <Image
-                  src="/previewNaglar.jpg"
+                  src="/previewHalloween.jpg"
                   alt="#"
                   width={200}
                   height={200}
@@ -76,7 +76,7 @@ export default function Home() {
             <Link href="/themes/midsommar">
               <a>
                 <Image
-                  src="/previewNaglar.jpg"
+                  src="/previewMidsummer.jpg"
                   alt="#"
                   width={200}
                   height={200}
@@ -90,7 +90,7 @@ export default function Home() {
             <Link href="/themes/nails">
               <a>
                 <Image
-                  src="/previewNaglar.jpg"
+                  src="/previewNails.jpg"
                   alt="#"
                   width={200}
                   height={200}
@@ -104,7 +104,7 @@ export default function Home() {
             <Link href="/themes/hair">
               <a>
                 <Image
-                  src="/previewNaglar.jpg"
+                  src="/previewHair.jpg"
                   alt="#"
                   width={200}
                   height={200}
