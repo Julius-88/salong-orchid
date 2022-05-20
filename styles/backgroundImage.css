@@ -1,11 +1,10 @@
-.flower {
+.background {
   background-image: url("/orchidmain.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
-  background-color: white;
-  height: 100vh;
+  background-color: black;
 }
 
 .wedding {

@@ -36,18 +36,7 @@ function Modal({ closeModal }) {
                 required
               />
             </div>
-            <div className="form-group mx-12">
-              <label htmlFor="Phone">Phone Number</label>
-              <input
-                className="input"
-                type="tel"
-                id="Phone"
-                name="Phone"
-                pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
-                placeholder="123-456-7890"
-                required
-              />
-            </div>
+
             <div className="form-group mx-12">
               <label htmlFor="email">Email</label>
               <input
@@ -84,7 +73,7 @@ function Modal({ closeModal }) {
                 Submit
               </button>
               <button
-                className="buttonModal outline-dotted"
+                className="buttonModal outline"
                 onClick={() => closeModal(false)}
               >
                 Cancel

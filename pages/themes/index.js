@@ -60,7 +60,7 @@ const Themes = () => {
             ></Image>
           </a>
         </Link>
-        <p className="cursor-default">Midsommar</p>
+        <p className="cursor-default">Midsummer</p>
       </div>
       <div className="grid justify-items-center">
         <Link href="/themes/nails">

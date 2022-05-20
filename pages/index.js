@@ -37,7 +37,7 @@ export default function Home() {
                     alt="#"
                     width={200}
                     height={200}
-                    className="rounded"
+                    className="pictures"
                   ></Image>
                 </div>
               </a>
@@ -52,7 +52,7 @@ export default function Home() {
                   alt="#"
                   width={200}
                   height={200}
-                  className="rounded"
+                  className="pictures"
                 ></Image>
               </a>
             </Link>
@@ -66,7 +66,7 @@ export default function Home() {
                   alt="#"
                   width={200}
                   height={200}
-                  className="rounded"
+                  className="pictures"
                 ></Image>
               </a>
             </Link>
@@ -80,7 +80,7 @@ export default function Home() {
                   alt="#"
                   width={200}
                   height={200}
-                  className="rounded"
+                  className="pictures"
                 ></Image>
               </a>
             </Link>
@@ -94,7 +94,7 @@ export default function Home() {
                   alt="#"
                   width={200}
                   height={200}
-                  className="rounded"
+                  className="pictures"
                 ></Image>
               </a>
             </Link>
@@ -108,7 +108,7 @@ export default function Home() {
                   alt="#"
                   width={200}
                   height={200}
-                  className="rounded"
+                  className="pictures"
                 ></Image>
               </a>
             </Link>
