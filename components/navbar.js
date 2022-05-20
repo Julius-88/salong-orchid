@@ -66,7 +66,7 @@ const Navbar = () => {
           </div>
         </div>
       </section>
-      <nav className="text-center font-bold space-x-2 text-xl italic">
+      <nav className="text-center font-bold space-x-2 text-xl italic ">
         <Link href="/">
           <a className="hover:underline decoration-fuchsia-300">Home</a>
         </Link>
