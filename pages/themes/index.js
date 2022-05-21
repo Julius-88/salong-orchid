@@ -66,7 +66,7 @@ const Themes = () => {
         <Link href="/themes/nails">
           <a>
             <Image
-              src="/previewNaglar.jpg"
+              src="/previewNails.jpg"
               alt="a picture of a set of painted nails"
               width={200}
               height={250}
