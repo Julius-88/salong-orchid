@@ -6,138 +6,89 @@ const Midsummer = () => {
       <section className=" font-bold text-purple-500 text-center  flex flex-col items-center py-10 px-10">
         <section className="flex flex-col items-start">
           <span className=" text-sm md:text-base lg:text-xl ">
-            Examples of Makeup
+            Examples of Makeup Styles
           </span>
           <div className="horizontal-scroll md:auto-cols-fr ">
             <figure>
               {" "}
               <Image
-                src="/previewNaglar.jpg"
-                alt="#"
+                src="/midsummerMakeup.jpg"
+                alt="Example of a makeup style"
                 width={200}
                 height={200}
+                className="object-cover"
               ></Image>
             </figure>
 
             <figure>
               {" "}
               <Image
-                src="/previewNaglar.jpg"
-                alt="#"
+                src="/midsummerMakeupTwo.jpg"
+                alt="Example of a makeup style"
                 width={200}
                 height={200}
+                className="object-cover"
               ></Image>
             </figure>
 
             <figure>
               {" "}
               <Image
-                src="/previewNaglar.jpg"
-                alt="#"
+                src="/midsummerMakeupThree.jpg"
+                alt="Example of a makeup style"
                 width={200}
                 height={200}
-              ></Image>
-            </figure>
-
-            <figure>
-              {" "}
-              <Image
-                src="/previewNaglar.jpg"
-                alt="#"
-                width={200}
-                height={200}
-              ></Image>
-            </figure>
-          </div>
-        </section>
-        <section className="flex flex-col items-start">
-          <span className=" text-sm md:text-base lg:text-xl pt-5 ">
-            Examples of Hairstyles
-          </span>
-          <div className="horizontal-scroll md:auto-cols-fr">
-            <figure>
-              {" "}
-              <Image
-                src="/previewNaglar.jpg"
-                alt="#"
-                width={200}
-                height={200}
-              ></Image>
-            </figure>
-
-            <figure>
-              {" "}
-              <Image
-                src="/previewNaglar.jpg"
-                alt="#"
-                width={200}
-                height={200}
-              ></Image>
-            </figure>
-
-            <figure>
-              {" "}
-              <Image
-                src="/previewNaglar.jpg"
-                alt="#"
-                width={200}
-                height={200}
-              ></Image>
-            </figure>
-
-            <figure>
-              {" "}
-              <Image
-                src="/previewNaglar.jpg"
-                alt="#"
-                width={200}
-                height={200}
+                className="object-cover"
               ></Image>
             </figure>
           </div>
         </section>
         <section className="flex flex-col items-start pb-10">
           <span className=" text-sm md:text-base lg:text-xl pt-5">
-            Example of Nails{" "}
+            Example of Nail Styles{" "}
           </span>
           <div className="horizontal-scroll md:auto-cols-fr  ">
             <figure>
               {" "}
               <Image
-                src="/previewNaglar.jpg"
-                alt="#"
+                src="/midsummerNails.jfif"
+                alt="Example of a nail style"
                 width={200}
                 height={200}
+                className="object-cover"
               ></Image>
             </figure>
 
             <figure>
               {" "}
               <Image
-                src="/previewNaglar.jpg"
-                alt="#"
+                src="/midsummerNailsOne.jfif"
+                alt="Example of a nail style"
                 width={200}
                 height={200}
+                className="object-cover"
               ></Image>
             </figure>
 
             <figure>
               {" "}
               <Image
-                src="/previewNaglar.jpg"
-                alt="#"
+                src="/midsummerNailsTwo.jfif"
+                alt="Example of a nail style"
                 width={200}
                 height={200}
+                className="object-cover"
               ></Image>
             </figure>
 
             <figure>
               {" "}
               <Image
-                src="/previewNaglar.jpg"
-                alt="#"
+                src="/midsummerNailsThree.jfif"
+                alt="Example of a nail style"
                 width={200}
                 height={200}
+                className="object-cover"
               ></Image>
             </figure>
           </div>

@@ -6,7 +6,7 @@ const Halloween = () => {
       <section className=" font-bold text-purple-500 text-center  flex flex-col items-center py-10 px-10">
         <section className="flex flex-col items-start">
           <span className=" text-sm md:text-base lg:text-xl ">
-            Examples of Makeup
+            Examples of Makeup Styles
           </span>
           <div className="horizontal-scroll md:auto-cols-fr ">
             <figure>
@@ -57,7 +57,7 @@ const Halloween = () => {
 
         <section className="flex flex-col items-start pb-10">
           <span className=" text-sm md:text-base lg:text-xl pt-5">
-            Example of Nails{" "}
+            Example of Nail Styles{" "}
           </span>
           <div className="horizontal-scroll md:auto-cols-fr  ">
             <figure>
