@@ -12,90 +12,38 @@ const Easter = () => {
             <figure>
               {" "}
               <Image
-                src="/previewNaglar.jpg"
-                alt="#"
-                width={200}
-                height={200}
+                src="/easterMakeup.jpeg"
+                alt="Example of a makeup style"
+                width={250}
+                height={400}
+                className="object-cover"
               ></Image>
             </figure>
 
             <figure>
               {" "}
               <Image
-                src="/previewNaglar.jpg"
-                alt="#"
-                width={200}
-                height={200}
+                src="/easterMakeupOne.jpg"
+                alt="Example of a makeup style"
+                width={250}
+                height={400}
+                className="object-cover"
               ></Image>
             </figure>
 
             <figure>
               {" "}
               <Image
-                src="/previewNaglar.jpg"
-                alt="#"
-                width={200}
-                height={200}
-              ></Image>
-            </figure>
-
-            <figure>
-              {" "}
-              <Image
-                src="/previewNaglar.jpg"
-                alt="#"
-                width={200}
-                height={200}
+                src="/easterMakeupTwo.jpg"
+                alt="Example of a makeup style"
+                width={250}
+                height={400}
+                className="object-cover"
               ></Image>
             </figure>
           </div>
         </section>
-        <section className="flex flex-col items-start">
-          <span className=" text-sm md:text-base lg:text-xl pt-5 ">
-            Examples of Hairstyles
-          </span>
-          <div className="horizontal-scroll md:auto-cols-fr">
-            <figure>
-              {" "}
-              <Image
-                src="/previewNaglar.jpg"
-                alt="#"
-                width={200}
-                height={200}
-              ></Image>
-            </figure>
 
-            <figure>
-              {" "}
-              <Image
-                src="/previewNaglar.jpg"
-                alt="#"
-                width={200}
-                height={200}
-              ></Image>
-            </figure>
-
-            <figure>
-              {" "}
-              <Image
-                src="/previewNaglar.jpg"
-                alt="#"
-                width={200}
-                height={200}
-              ></Image>
-            </figure>
-
-            <figure>
-              {" "}
-              <Image
-                src="/previewNaglar.jpg"
-                alt="#"
-                width={200}
-                height={200}
-              ></Image>
-            </figure>
-          </div>
-        </section>
         <section className="flex flex-col items-start pb-10">
           <span className=" text-sm md:text-base lg:text-xl pt-5">
             Example of Nails{" "}
@@ -104,40 +52,44 @@ const Easter = () => {
             <figure>
               {" "}
               <Image
-                src="/previewNaglar.jpg"
-                alt="#"
-                width={200}
-                height={200}
+                src="/easterNailsOne.jfif"
+                alt="Example of a nail style"
+                width={250}
+                height={400}
+                className="object-cover"
               ></Image>
             </figure>
 
             <figure>
               {" "}
               <Image
-                src="/previewNaglar.jpg"
-                alt="#"
-                width={200}
-                height={200}
+                src="/easterNailsTwo.jfif"
+                alt="Example of a nail style"
+                width={250}
+                height={400}
+                className="object-cover"
               ></Image>
             </figure>
 
             <figure>
               {" "}
               <Image
-                src="/previewNaglar.jpg"
-                alt="#"
-                width={200}
-                height={200}
+                src="/easterNailsThree.jfif"
+                alt="Example of a nail style"
+                width={250}
+                height={400}
+                className="object-cover"
               ></Image>
             </figure>
 
             <figure>
               {" "}
               <Image
-                src="/previewNaglar.jpg"
-                alt="#"
-                width={200}
-                height={200}
+                src="/easterNailsFour.jfif"
+                alt="Example of a nail style"
+                width={250}
+                height={400}
+                className="object-cover"
               ></Image>
             </figure>
           </div>
