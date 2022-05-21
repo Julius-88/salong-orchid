@@ -9,8 +9,8 @@ const Themes = () => {
           <a>
             <div>
               <Image
-                src="/previewNaglar.jpg"
-                alt="#"
+                src="/previewWedding.jpg"
+                alt="a before and after picture of a bride"
                 width={200}
                 height={200}
                 className="rounded"
@@ -24,8 +24,8 @@ const Themes = () => {
         <Link href="/themes/easter">
           <a>
             <Image
-              src="/previewNaglar.jpg"
-              alt="#"
+              src="/previewEaster.jpg"
+              alt="a picture of a child that is painted as a bunny"
               width={200}
               height={200}
               className="rounded"
@@ -38,8 +38,8 @@ const Themes = () => {
         <Link href="/themes/halloween">
           <a>
             <Image
-              src="/previewNaglar.jpg"
-              alt="#"
+              src="/previewHalloween.jpg"
+              alt="a picture of a woman with halloween makeup"
               width={200}
               height={200}
               className="rounded"
@@ -52,8 +52,8 @@ const Themes = () => {
         <Link href="/themes/midsommar">
           <a>
             <Image
-              src="/previewNaglar.jpg"
-              alt="#"
+              src="/previewMidsummer.jpg"
+              alt="a picture of a woman with midsummer makeup"
               width={200}
               height={200}
               className="rounded"
@@ -67,7 +67,7 @@ const Themes = () => {
           <a>
             <Image
               src="/previewNaglar.jpg"
-              alt="#"
+              alt="a picture of a set of painted nails"
               width={200}
               height={200}
               className="rounded"
@@ -80,8 +80,8 @@ const Themes = () => {
         <Link href="/themes/hair">
           <a>
             <Image
-              src="/previewNaglar.jpg"
-              alt="#"
+              src="/previewHair.jpg"
+              alt="a picture of a girl with hair styles for a wedding"
               width={200}
               height={200}
               className="rounded"

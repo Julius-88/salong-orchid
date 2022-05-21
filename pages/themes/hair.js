@@ -12,7 +12,7 @@ const Hair = () => {
             <figure>
               {" "}
               <Image
-                src="/previewNaglar.jpg"
+                src="/weddingHair.jpg"
                 alt="#"
                 width={200}
                 height={200}

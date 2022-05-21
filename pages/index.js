@@ -34,7 +34,7 @@ export default function Home() {
                 <div>
                   <Image
                     src="/previewWedding.jpg"
-                    alt="#"
+                    alt="a before and after picture of a bride"
                     width={200}
                     height={200}
                     className="pictures"
@@ -49,7 +49,7 @@ export default function Home() {
               <a>
                 <Image
                   src="/previewEaster.jpg"
-                  alt="#"
+                  alt="a picture of a child that is painted as a bunny"
                   width={200}
                   height={200}
                   className="pictures"
@@ -63,7 +63,7 @@ export default function Home() {
               <a>
                 <Image
                   src="/previewHalloween.jpg"
-                  alt="#"
+                  alt="a picture of a woman with halloween makeup"
                   width={200}
                   height={200}
                   className="pictures"
@@ -77,7 +77,7 @@ export default function Home() {
               <a>
                 <Image
                   src="/previewMidsummer.jpg"
-                  alt="#"
+                  alt="a picture of a woman with midsummer makeup"
                   width={200}
                   height={200}
                   className="pictures"
@@ -91,7 +91,7 @@ export default function Home() {
               <a>
                 <Image
                   src="/previewNails.jpg"
-                  alt="#"
+                  alt="a picture of a set of painted nails"
                   width={200}
                   height={200}
                   className="pictures"
@@ -105,7 +105,7 @@ export default function Home() {
               <a>
                 <Image
                   src="/previewHair.jpg"
-                  alt="#"
+                  alt="a picture of a girl with hair styles for a wedding"
                   width={200}
                   height={200}
                   className="pictures"
