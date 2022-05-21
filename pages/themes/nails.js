@@ -1,89 +1,162 @@
 import Image from "next/dist/client/image";
-import BookHere, { BackButtons } from "../../components/buttons";
 
-const Nails = () => {
+const Hair = () => {
   return (
     <>
-      <section className=" font-bold text-purple-500 text-center py-24 px-10 nails-hair">
-        <div className="horizontal-scroll pt-16 xl:pt-5 2xl:pt-8 md:auto-cols-fr  ">
-          <figure>
-            {" "}
-            <Image
-              src="/previewNaglar.jpg"
-              alt="#"
-              width={200}
-              height={200}
-            ></Image>
-          </figure>
+      <section className=" font-bold text-purple-500 text-center px-10">
+        <section className="  pb-20 pt-2 ">
+          <span className=" text-sm md:text-base lg:text-xl ">
+            Examples of Nail Styles
+          </span>
+          <div className=" grid md:grid-cols-2 lg:grid-cols-4 pt-5">
+            <figure>
+              {" "}
+              <Image
+                src="/easterNailsOne.jfif"
+                alt="Example of a nail style"
+                width={250}
+                height={400}
+                className="object-cover"
+              ></Image>
+            </figure>
 
-          <figure>
-            {" "}
-            <Image
-              src="/previewNaglar.jpg"
-              alt="#"
-              width={200}
-              height={200}
-            ></Image>
-          </figure>
+            <figure>
+              {" "}
+              <Image
+                src="/easterNailsTwo.jfif"
+                alt="Example of a nail style"
+                width={250}
+                height={400}
+                className="object-cover"
+              ></Image>
+            </figure>
 
-          <figure>
-            {" "}
-            <Image
-              src="/previewNaglar.jpg"
-              alt="#"
-              width={200}
-              height={200}
-            ></Image>
-          </figure>
-        </div>
-        <p className=" text-sm md:text-base lg:text-xl">Makeup</p>
-        <div className="horizontal-scroll pt-14 2xl:pt-32  md:auto-cols-fr ">
-          <figure>
-            {" "}
-            <Image
-              src="/previewNaglar.jpg"
-              alt="#"
-              width={200}
-              height={200}
-            ></Image>
-          </figure>
+            <figure>
+              {" "}
+              <Image
+                src="/easterNailsThree.jfif"
+                alt="Example of a nail style"
+                width={250}
+                height={400}
+                className="object-cover"
+              ></Image>
+            </figure>
 
-          <figure>
-            {" "}
-            <Image
-              src="/previewNaglar.jpg"
-              alt="#"
-              width={200}
-              height={200}
-            ></Image>
-          </figure>
-
-          <figure>
-            {" "}
-            <Image
-              src="/previewNaglar.jpg"
-              alt="#"
-              width={200}
-              height={200}
-            ></Image>
-          </figure>
-          <figure>
-            {" "}
-            <Image
-              src="/previewNaglar.jpg"
-              alt="#"
-              width={200}
-              height={200}
-            ></Image>
-          </figure>
-        </div>
-        <p className="text-sm md:text-base lg:text-xl ">Nails</p>
-        <div className="grid justify-evenly grid-flow-col text-xs gap-2 pt-1 md:pt-7 lg:pt-5 xl:pt-10 lg:text-base xl:text-lg 2xl:pt-28 ">
-          <BackButtons /> <BookHere />
-        </div>
+            <figure>
+              {" "}
+              <Image
+                src="/easterNailsFour.jfif"
+                alt="Example of a nail style"
+                width={250}
+                height={400}
+                className="object-cover"
+              ></Image>
+            </figure>
+            <figure>
+              {" "}
+              <Image
+                src="/halloweenNails.jfif"
+                alt="Example of a nail style"
+                width={250}
+                height={400}
+                className="object-cover"
+              ></Image>
+            </figure>
+            <figure>
+              {" "}
+              <Image
+                src="/halloweenNailsOne.jfif"
+                alt="Example of a nail style"
+                width={250}
+                height={400}
+                className="object-cover"
+              ></Image>
+            </figure>
+            <figure>
+              {" "}
+              <Image
+                src="/halloweenNailsTwo.jfif"
+                alt="Example of a nail style"
+                width={250}
+                height={400}
+                className="object-cover"
+              ></Image>
+            </figure>
+            <figure>
+              {" "}
+              <Image
+                src="/midsummerNails.jfif"
+                alt="Example of a nail style"
+                width={250}
+                height={400}
+                className="object-cover"
+              ></Image>
+            </figure>
+            <figure>
+              {" "}
+              <Image
+                src="/midsummerNailsOne.jfif"
+                alt="Example of a nail style"
+                width={250}
+                height={400}
+                className="object-cover"
+              ></Image>
+            </figure>
+            <figure>
+              {" "}
+              <Image
+                src="/midsummerNailsTwo.jfif"
+                alt="Example of a nail style"
+                width={250}
+                height={400}
+                className="object-cover"
+              ></Image>
+            </figure>
+            <figure>
+              {" "}
+              <Image
+                src="/midsummerNailsThree.jfif"
+                alt="Example of a nail style"
+                width={250}
+                height={400}
+                className="object-cover"
+              ></Image>
+            </figure>
+            <figure>
+              {" "}
+              <Image
+                src="/weddingNails.jpg"
+                alt="Example of a nail style"
+                width={250}
+                height={400}
+                className="object-cover"
+              ></Image>
+            </figure>
+            <figure>
+              {" "}
+              <Image
+                src="/weddingNailsOne.jpg"
+                alt="Example of a nail style"
+                width={250}
+                height={400}
+                className="object-cover"
+              ></Image>
+            </figure>
+            <figure>
+              {" "}
+              <Image
+                src="/weddingNailsTwo.jpg"
+                alt="Example of a nail style"
+                width={250}
+                height={400}
+                className="object-cover"
+              ></Image>
+            </figure>
+          </div>
+        </section>
       </section>
     </>
   );
 };
 
-export default Nails;
+export default Hair;

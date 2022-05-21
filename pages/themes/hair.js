@@ -1,134 +1,69 @@
-import Link from "next/link";
 import Image from "next/dist/client/image";
-import BookHere, { BackButtons } from "../../components/buttons";
 
 const Hair = () => {
   return (
     <>
-      <section className=" font-bold text-center py-5 px-10 wedding">
-        <div className="horizontal-scroll pt-2 2xl:pt-20 md:auto-cols-fr  ">
-          <Link href={"/themes"}>
-            <a className="hover:drop-shadow-xl">
+      <section className=" font-bold text-purple-500 text-center px-10">
+        <section className="  pb-20 pt-2 ">
+          <span className=" text-sm md:text-base lg:text-xl ">
+            Examples of Hair Styles
+          </span>
+          <div className=" grid md:grid-cols-2 lg:grid-cols-4 pt-5">
+            <figure>
               {" "}
               <Image
-                src="/previewNaglar.jpg"
-                alt="#"
-                width={200}
-                height={200}
+                src="/previewHair.jpg"
+                alt="Example of a hair style"
+                width={250}
+                height={400}
+                className="object-cover"
               ></Image>
-            </a>
-          </Link>
-          <Link href={"/themes"}>
-            <a className="hover:drop-shadow-xl">
-              {" "}
-              <Image
-                src="/previewNaglar.jpg"
-                alt="#"
-                width={200}
-                height={200}
-              ></Image>
-            </a>
-          </Link>
-          <Link href={"/themes"}>
-            <a className="hover:drop-shadow-xl">
-              {" "}
-              <Image
-                src="/previewNaglar.jpg"
-                alt="#"
-                width={200}
-                height={200}
-              ></Image>
-            </a>
-          </Link>
-        </div>
-        <p>Hair</p>
+            </figure>
 
-        <div className="horizontal-scroll pt-2  2xl:pt-8 md:auto-cols-fr  ">
-          <Link href={"/themes"}>
-            <a className="hover:drop-shadow-xl">
+            <figure>
               {" "}
               <Image
-                src="/previewNaglar.jpg"
-                alt="#"
-                width={200}
-                height={200}
+                src="/weddingHair.jpeg"
+                alt="Example of a hair style"
+                width={250}
+                height={400}
+                className="object-cover"
               ></Image>
-            </a>
-          </Link>
-          <Link href={"/themes"}>
-            <a className="hover:drop-shadow-xl">
+            </figure>
+
+            <figure>
               {" "}
               <Image
-                src="/previewNaglar.jpg"
-                alt="#"
-                width={200}
-                height={200}
+                src="/weddingHairOne.jpg"
+                alt="Example of a hair style"
+                width={250}
+                height={400}
+                className="object-cover"
               ></Image>
-            </a>
-          </Link>
-          <Link href={"/themes"}>
-            <a className="hover:drop-shadow-xl">
+            </figure>
+
+            <figure>
               {" "}
               <Image
-                src="/previewNaglar.jpg"
-                alt="#"
-                width={200}
-                height={200}
+                src="/weddingHairTwo.jpg"
+                alt="Example of a hair style"
+                width={250}
+                height={400}
+                className="object-cover"
               ></Image>
-            </a>
-          </Link>
-          <Link href={"/themes"}>
-            <a className="hover:drop-shadow-xl">
+            </figure>
+            <figure>
               {" "}
               <Image
-                src="/previewNaglar.jpg"
-                alt="#"
-                width={200}
-                height={200}
+                src="/weddingHairThree.jpg"
+                alt="Example of a hair style"
+                width={250}
+                height={400}
+                className="object-cover"
               ></Image>
-            </a>
-          </Link>
-        </div>
-        <p>Makeup</p>
-        <div className="horizontal-scroll pt-2 2xl:pt-24  md:auto-cols-fr ">
-          <Link href={"/themes"}>
-            <a className="hover:drop-shadow-xl">
-              {" "}
-              <Image
-                src="/previewNaglar.jpg"
-                alt="#"
-                width={200}
-                height={200}
-              ></Image>
-            </a>
-          </Link>
-          <Link href={"/themes"}>
-            <a className="hover:drop-shadow-xl">
-              {" "}
-              <Image
-                src="/previewNaglar.jpg"
-                alt="#"
-                width={200}
-                height={200}
-              ></Image>
-            </a>
-          </Link>
-          <Link href={"/themes"}>
-            <a className="hover:drop-shadow-xl">
-              {" "}
-              <Image
-                src="/previewNaglar.jpg"
-                alt="#"
-                width={200}
-                height={200}
-              ></Image>
-            </a>
-          </Link>
-        </div>
-        <p className="text-sm md:text-base ">Nails</p>
-        <div className="grid justify-evenly grid-flow-col text-xs gap-2 pt-1 md:pt-7 lg:pt-5 xl:pt-4 xl:text-base 2xl:text 2xl:pt-28 ">
-          <BackButtons /> <BookHere />
-        </div>
+            </figure>
+          </div>
+        </section>
       </section>
     </>
   );

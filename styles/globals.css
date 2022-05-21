@@ -25,6 +25,7 @@ nav {
   align-items: center;
   padding: 0 20px;
   background-color: #ff7af2;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
 }
 
 .text {
@@ -40,9 +41,7 @@ nav {
   background-attachment: fixed;
   background-position: center;
   background-color: black;
-
   font-size: 3rem;
-  /* background: linear-gradient(315deg, #ffffff 0%, #d7e1ec 74%); */
 }
 
 footer {
@@ -53,6 +52,6 @@ footer {
   height: 60px;
 }
 
-img {
+.pictures {
   border-radius: 30%;
 }

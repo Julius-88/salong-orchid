@@ -1,45 +1,54 @@
-.wedding {
-  background-image: url("/bröllop-bakgrund.jpeg");
+.background {
+  background-image: url("/orchidmain.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
   background-color: black;
+}
+
+.wedding {
+  /* background-image: url("/bröllop-bakgrund.jpeg"); */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-color: white;
   height: 100vh;
 }
 .easter {
-  background-image: url("/easter-bakgrund.jpeg");
+  /* background-image: url("/easter-bakgrund.jpeg"); */
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
-  background-color: black;
+  background-color: white;
   height: 100vh;
 }
 .halloween {
-  background-image: url("/halloween-bakgrund.jpeg");
+  /* background-image: url("/halloween-bakgrund.jpeg"); */
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
-  background-color: black;
+  background-color: white;
   height: 100vh;
 }
 .midsommar {
-  background-image: url("/midsommar-bakgrund.jpeg");
+  /* background-image: url("/midsommar-bakgrund.jpeg"); */
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
-  background-color: black;
+  background-color: white;
   height: 100vh;
 }
 .nails-hair {
-  background-image: url("/smink-naglar-bakgrund.jpeg");
+  /* background-image: url("/smink-naglar-bakgrund.jpeg"); */
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
-  background-color: black;
+  background-color: white;
   height: 100vh;
 }

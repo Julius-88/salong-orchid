@@ -26,26 +26,36 @@ function Modal({ closeModal }) {
       <section className="modalBackground">
         <div className="modalContainer">
           <form onSubmit={handleSubmit}>
-            <div className="form-group">
-              <label htmlFor="firstName"> First Name</label>
-              <input type="text" id="firstName" name="firstName" required />
+            <div className="form-group mx-12 ">
+              <label htmlFor="Name"> Name</label>
+              <input
+                className="input"
+                type="text"
+                id="Name"
+                name="Name"
+                required
+              />
             </div>
-            <div className="form-group">
-              <label htmlFor="lastName">Last Name</label>
-              <input type="text" id="lastName" name="lastName" required />
-            </div>
-            <div className="form-group">
+
+            <div className="form-group mx-12">
               <label htmlFor="email">Email</label>
-              <input type="email" id="email" name="email" required />
+              <input
+                type="email"
+                className="input"
+                id="email"
+                name="email"
+                required
+              />
             </div>
             <ValidationError
               prefix="Email"
               field="email"
               errors={state.errors}
             />
-            <div className="form-group">
+            <div className="form-group mx-12">
               <label htmlFor="message">Message</label>
               <textarea
+                className="input"
                 name="message"
                 id="message"
                 cols="30"
@@ -58,14 +68,19 @@ function Modal({ closeModal }) {
               field="message"
               errors={state.errors}
             />
-            <button className="buttonModal" onClick={() => closeModal(false)}>
-              Cancel
-            </button>
-            <button className="buttonModal" type="submit">
-              Submit
-            </button>
+            <div className="flex flex-row mx-12 gap-2">
+              <button className="buttonModal bg-pink-200" type="submit">
+                Submit
+              </button>
+              <button
+                className="buttonModal outline"
+                onClick={() => closeModal(false)}
+              >
+                Cancel
+              </button>
+            </div>
             <ReCAPTCHA
-              className="pl-10"
+              className="recaptcha ml-9 mt-5 md:ml-20"
               sitekey="6Lfgt_AfAAAAAHlr3yY9mNvcX57YMTsC9TxGzFGS"
             />
           </form>
