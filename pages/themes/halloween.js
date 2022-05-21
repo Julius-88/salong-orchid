@@ -12,7 +12,7 @@ const Halloween = () => {
             <figure>
               {" "}
               <Image
-                src="/halloweenOne.jpg"
+                src="/halloweenMakeup.jpg"
                 alt="Example of a makeup style"
                 width={250}
                 height={400}
@@ -23,7 +23,7 @@ const Halloween = () => {
             <figure>
               {" "}
               <Image
-                src="/halloweenTwo.jpg"
+                src="/halloweenMakeupTwo.jpg"
                 alt="Example of a makeup style"
                 width={250}
                 height={400}
@@ -34,7 +34,7 @@ const Halloween = () => {
             <figure>
               {" "}
               <Image
-                src="/halloweenThree.jpg"
+                src="/halloweenMakeupThree.jpg"
                 alt="Example of a makeup style"
                 width={250}
                 height={400}
@@ -45,7 +45,17 @@ const Halloween = () => {
             <figure>
               {" "}
               <Image
-                src="/halloweenFour.jpg"
+                src="/halloweenMakeupFour.jpg"
+                alt="Example of a makeup style"
+                width={250}
+                height={400}
+                className="object-cover"
+              ></Image>
+            </figure>
+            <figure>
+              {" "}
+              <Image
+                src="/halloweenMakeupFive.jpg"
                 alt="Example of a makeup style"
                 width={250}
                 height={400}

@@ -36,8 +36,8 @@ export default function Home() {
                     src="/previewWedding.jpg"
                     alt="a before and after picture of a bride"
                     width={200}
-                    height={200}
-                    className="pictures"
+                    height={250}
+                    className="rounded object-fill"
                   ></Image>
                 </div>
               </a>
@@ -51,8 +51,8 @@ export default function Home() {
                   src="/previewEaster.jpg"
                   alt="a picture of a child that is painted as a bunny"
                   width={200}
-                  height={200}
-                  className="pictures"
+                  height={250}
+                  className="rounded object-fill"
                 ></Image>
               </a>
             </Link>
@@ -65,8 +65,8 @@ export default function Home() {
                   src="/previewHalloween.jpg"
                   alt="a picture of a woman with halloween makeup"
                   width={200}
-                  height={200}
-                  className="pictures"
+                  height={250}
+                  className="rounded object-cover"
                 ></Image>
               </a>
             </Link>
@@ -79,22 +79,22 @@ export default function Home() {
                   src="/previewMidsummer.jpg"
                   alt="a picture of a woman with midsummer makeup"
                   width={200}
-                  height={200}
-                  className="pictures"
+                  height={250}
+                  className="rounded object-cover"
                 ></Image>
               </a>
             </Link>
-            <p className="cursor-default">Midsommar</p>
+            <p className="cursor-default">Midsummer</p>
           </div>
           <div className="grid justify-items-center">
             <Link href="/themes/nails">
               <a>
                 <Image
-                  src="/previewNails.jpg"
+                  src="/previewNaglar.jpg"
                   alt="a picture of a set of painted nails"
                   width={200}
-                  height={200}
-                  className="pictures"
+                  height={250}
+                  className="rounded object-cover"
                 ></Image>
               </a>
             </Link>
@@ -107,12 +107,26 @@ export default function Home() {
                   src="/previewHair.jpg"
                   alt="a picture of a girl with hair styles for a wedding"
                   width={200}
-                  height={200}
-                  className="pictures"
+                  height={250}
+                  className="rounded object-cover"
                 ></Image>
               </a>
             </Link>
             <p className="cursor-default">Hair</p>
+          </div>
+          <div className="grid justify-items-center">
+            <Link href="/themes/makeup">
+              <a>
+                <Image
+                  src="/midsummerMakeupTwo.jpg"
+                  alt="a picture of a girl with makeup on for midsummer"
+                  width={200}
+                  height={250}
+                  className="rounded object-cover"
+                ></Image>
+              </a>
+            </Link>
+            <p className="cursor-default">Makeup</p>
           </div>
         </section>
       </section>
