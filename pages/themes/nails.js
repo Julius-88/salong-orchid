@@ -6,46 +6,150 @@ const Hair = () => {
       <section className=" font-bold text-purple-500 text-center px-10">
         <section className="  pb-20 pt-2 ">
           <span className=" text-sm md:text-base lg:text-xl ">
-            Examples of Nailstyles
+            Examples of Nail Styles
           </span>
           <div className=" grid md:grid-cols-2 lg:grid-cols-4 pt-5">
             <figure>
               {" "}
               <Image
-                src="/previewNaglar.jpg"
-                alt="#"
-                width={200}
-                height={200}
+                src="/easterNailsOne.jfif"
+                alt="Example of a nail style"
+                width={250}
+                height={400}
+                className="object-cover"
               ></Image>
             </figure>
 
             <figure>
               {" "}
               <Image
-                src="/previewNaglar.jpg"
-                alt="#"
-                width={200}
-                height={200}
+                src="/easterNailsTwo.jfif"
+                alt="Example of a nail style"
+                width={250}
+                height={400}
+                className="object-cover"
               ></Image>
             </figure>
 
             <figure>
               {" "}
               <Image
-                src="/previewNaglar.jpg"
-                alt="#"
-                width={200}
-                height={200}
+                src="/easterNailsThree.jfif"
+                alt="Example of a nail style"
+                width={250}
+                height={400}
+                className="object-cover"
               ></Image>
             </figure>
 
             <figure>
               {" "}
               <Image
-                src="/previewNaglar.jpg"
-                alt="#"
-                width={200}
-                height={200}
+                src="/easterNailsFour.jfif"
+                alt="Example of a nail style"
+                width={250}
+                height={400}
+                className="object-cover"
+              ></Image>
+            </figure>
+            <figure>
+              {" "}
+              <Image
+                src="/halloweenNails.jfif"
+                alt="Example of a nail style"
+                width={250}
+                height={400}
+                className="object-cover"
+              ></Image>
+            </figure>
+            <figure>
+              {" "}
+              <Image
+                src="/halloweenNailsOne.jfif"
+                alt="Example of a nail style"
+                width={250}
+                height={400}
+                className="object-cover"
+              ></Image>
+            </figure>
+            <figure>
+              {" "}
+              <Image
+                src="/halloweenNailsTwo.jfif"
+                alt="Example of a nail style"
+                width={250}
+                height={400}
+                className="object-cover"
+              ></Image>
+            </figure>
+            <figure>
+              {" "}
+              <Image
+                src="/midsummerNails.jfif"
+                alt="Example of a nail style"
+                width={250}
+                height={400}
+                className="object-cover"
+              ></Image>
+            </figure>
+            <figure>
+              {" "}
+              <Image
+                src="/midsummerNailsOne.jfif"
+                alt="Example of a nail style"
+                width={250}
+                height={400}
+                className="object-cover"
+              ></Image>
+            </figure>
+            <figure>
+              {" "}
+              <Image
+                src="/midsummerNailsTwo.jfif"
+                alt="Example of a nail style"
+                width={250}
+                height={400}
+                className="object-cover"
+              ></Image>
+            </figure>
+            <figure>
+              {" "}
+              <Image
+                src="/midsummerNailsThree.jfif"
+                alt="Example of a nail style"
+                width={250}
+                height={400}
+                className="object-cover"
+              ></Image>
+            </figure>
+            <figure>
+              {" "}
+              <Image
+                src="/weddingNails.jpg"
+                alt="Example of a nail style"
+                width={250}
+                height={400}
+                className="object-cover"
+              ></Image>
+            </figure>
+            <figure>
+              {" "}
+              <Image
+                src="/weddingNailsOne.jpg"
+                alt="Example of a nail style"
+                width={250}
+                height={400}
+                className="object-cover"
+              ></Image>
+            </figure>
+            <figure>
+              {" "}
+              <Image
+                src="/weddingNailsTwo.jpg"
+                alt="Example of a nail style"
+                width={250}
+                height={400}
+                className="object-cover"
               ></Image>
             </figure>
           </div>
