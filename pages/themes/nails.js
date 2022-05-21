@@ -12,7 +12,7 @@ const Hair = () => {
             <figure>
               {" "}
               <Image
-                src="/easterNailsOne.jfif"
+                src="/easterNails.jpg"
                 alt="Example of a nail style"
                 width={250}
                 height={400}
@@ -23,7 +23,7 @@ const Hair = () => {
             <figure>
               {" "}
               <Image
-                src="/easterNailsTwo.jfif"
+                src="/easterNailsOne.jpg"
                 alt="Example of a nail style"
                 width={250}
                 height={400}
@@ -34,7 +34,7 @@ const Hair = () => {
             <figure>
               {" "}
               <Image
-                src="/easterNailsThree.jfif"
+                src="/easterNailsTwo.jpg"
                 alt="Example of a nail style"
                 width={250}
                 height={400}
@@ -45,7 +45,7 @@ const Hair = () => {
             <figure>
               {" "}
               <Image
-                src="/easterNailsFour.jfif"
+                src="/easterNailsThree.jpg"
                 alt="Example of a nail style"
                 width={250}
                 height={400}
@@ -55,7 +55,7 @@ const Hair = () => {
             <figure>
               {" "}
               <Image
-                src="/halloweenNails.jfif"
+                src="/halloweenNails.jpg"
                 alt="Example of a nail style"
                 width={250}
                 height={400}
@@ -65,7 +65,7 @@ const Hair = () => {
             <figure>
               {" "}
               <Image
-                src="/halloweenNailsOne.jfif"
+                src="/halloweenNailsOne.jpg"
                 alt="Example of a nail style"
                 width={250}
                 height={400}
@@ -75,7 +75,7 @@ const Hair = () => {
             <figure>
               {" "}
               <Image
-                src="/halloweenNailsTwo.jfif"
+                src="/halloweenNailsTwo.jpg"
                 alt="Example of a nail style"
                 width={250}
                 height={400}
@@ -85,7 +85,7 @@ const Hair = () => {
             <figure>
               {" "}
               <Image
-                src="/midsummerNails.jfif"
+                src="/midsummerNails.jpg"
                 alt="Example of a nail style"
                 width={250}
                 height={400}
@@ -95,7 +95,7 @@ const Hair = () => {
             <figure>
               {" "}
               <Image
-                src="/midsummerNailsOne.jfif"
+                src="/midsummerNailsOne.jpg"
                 alt="Example of a nail style"
                 width={250}
                 height={400}
@@ -105,7 +105,7 @@ const Hair = () => {
             <figure>
               {" "}
               <Image
-                src="/midsummerNailsTwo.jfif"
+                src="/midsummerNailsTwo.jpg"
                 alt="Example of a nail style"
                 width={250}
                 height={400}
@@ -115,7 +115,7 @@ const Hair = () => {
             <figure>
               {" "}
               <Image
-                src="/midsummerNailsThree.jfif"
+                src="/midsummerNailsThree.jpg"
                 alt="Example of a nail style"
                 width={250}
                 height={400}

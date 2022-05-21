@@ -142,6 +142,26 @@ const Makeup = () => {
                 className="object-cover"
               ></Image>
             </figure>
+            <figure>
+              {" "}
+              <Image
+                src="/smokeyEye.jpeg"
+                alt="Example of a hair style"
+                width={250}
+                height={400}
+                className="object-cover"
+              ></Image>
+            </figure>
+            <figure>
+              {" "}
+              <Image
+                src="/smokeyEyeOne.jpeg"
+                alt="Example of a hair style"
+                width={250}
+                height={400}
+                className="object-cover"
+              ></Image>
+            </figure>
           </div>
         </section>
       </section>
