@@ -51,7 +51,7 @@ const Midsummer = () => {
             <figure>
               {" "}
               <Image
-                src="/midsummerNails.jfif"
+                src="/midsummerNails.jpg"
                 alt="Example of a nail style"
                 width={200}
                 height={200}
@@ -62,7 +62,7 @@ const Midsummer = () => {
             <figure>
               {" "}
               <Image
-                src="/midsummerNailsOne.jfif"
+                src="/midsummerNailsOne.jpg"
                 alt="Example of a nail style"
                 width={200}
                 height={200}
@@ -73,7 +73,7 @@ const Midsummer = () => {
             <figure>
               {" "}
               <Image
-                src="/midsummerNailsTwo.jfif"
+                src="/midsummerNailsTwo.jpg"
                 alt="Example of a nail style"
                 width={200}
                 height={200}
@@ -84,7 +84,7 @@ const Midsummer = () => {
             <figure>
               {" "}
               <Image
-                src="/midsummerNailsThree.jfif"
+                src="/midsummerNailsThree.jpg"
                 alt="Example of a nail style"
                 width={200}
                 height={200}

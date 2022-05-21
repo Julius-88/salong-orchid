@@ -52,7 +52,7 @@ const Easter = () => {
             <figure>
               {" "}
               <Image
-                src="/easterNailsOne.jfif"
+                src="/easterNails.jpg"
                 alt="Example of a nail style"
                 width={250}
                 height={400}
@@ -63,7 +63,7 @@ const Easter = () => {
             <figure>
               {" "}
               <Image
-                src="/easterNailsTwo.jfif"
+                src="/easterNailsOne.jpg"
                 alt="Example of a nail style"
                 width={250}
                 height={400}
@@ -74,7 +74,7 @@ const Easter = () => {
             <figure>
               {" "}
               <Image
-                src="/easterNailsThree.jfif"
+                src="/easterNailsTwo.jpg"
                 alt="Example of a nail style"
                 width={250}
                 height={400}
@@ -85,7 +85,7 @@ const Easter = () => {
             <figure>
               {" "}
               <Image
-                src="/easterNailsFour.jfif"
+                src="/easterNailsThree.jpg"
                 alt="Example of a nail style"
                 width={250}
                 height={400}

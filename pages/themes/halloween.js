@@ -73,7 +73,7 @@ const Halloween = () => {
             <figure>
               {" "}
               <Image
-                src="/halloweenNails.jfif"
+                src="/halloweenNails.jpg"
                 alt="Example of a nail style"
                 width={250}
                 height={400}
@@ -84,7 +84,7 @@ const Halloween = () => {
             <figure>
               {" "}
               <Image
-                src="/halloweenNailsOne.jfif"
+                src="/halloweenNailsOne.jpg"
                 alt="Example of a nail style"
                 width={250}
                 height={400}
@@ -95,7 +95,7 @@ const Halloween = () => {
             <figure>
               {" "}
               <Image
-                src="/halloweenNailsTwo.jfif"
+                src="/halloweenNailsTwo.jpg"
                 alt="Example of a nail style"
                 width={250}
                 height={400}
