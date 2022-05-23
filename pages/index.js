@@ -6,8 +6,15 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Salong Orchid</title>
-        <meta name="keywords" content="makeup,stylist,make-up,smink," />
+        <title>Salong Orchid |Stylist Stockholm </title>
+        <meta
+          name="keywords"
+          content="salong,orchid,salong orchid, makeup,stylist,make-up,smink,"
+        />
+        <meta
+          name="description"
+          content="Salong Orchid är en nystartad företag vars enda begränsning är din fantasi | Salong Orchid is a newly started business where your imagination is the only limitation."
+        />
       </Head>
       <section className="font-bold text-center p-20">
         <p>Welcome to Salong Orchid</p>

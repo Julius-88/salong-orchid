@@ -3,7 +3,7 @@ import Image from "next/dist/client/image";
 const Wedding = () => {
   return (
     <>
-      <section className=" font-bold text-purple-500 text-center  flex flex-col items-center py-10 px-10">
+      <section className=" font-bold text-purple-500 text-center  flex flex-col items-center py-10 px-10 wedding">
         <section className="flex flex-col items-start">
           <span className=" text-sm md:text-base lg:text-xl ">
             Examples of Hairstyles

@@ -15,8 +15,7 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
-  background-color: white;
-  /* padding-bottom: 60px; */
+  background-image: url("/orchidMain.jpg");
 }
 
 nav {

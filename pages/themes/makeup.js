@@ -3,7 +3,7 @@ import Image from "next/dist/client/image";
 const Makeup = () => {
   return (
     <>
-      <section className=" font-bold text-purple-500 text-center px-10">
+      <section className=" font-bold text-purple-500 text-center px-10 nails-hair">
         <section className="  pb-20 pt-2 ">
           <span className=" text-sm md:text-base lg:text-xl ">
             Examples of Makeup Styles
