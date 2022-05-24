@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Link from "next/link";
 
 const Prices = () => {
   return (
@@ -58,9 +59,11 @@ const Prices = () => {
               <p>Afterwards there is a charge of 100kr/h</p>
             </div>
             <div className="px-16 grid justify-items-center">
-              <button className="button font-bold m-2 hover:bg-fuchsia-300 ">
-                Book Here
-              </button>
+              <Link href="/booking">
+                <a className="button font-bold m-2 hover:bg-fuchsia-300 ">
+                  Book Here
+                </a>
+              </Link>
             </div>
           </div>
         </div>
