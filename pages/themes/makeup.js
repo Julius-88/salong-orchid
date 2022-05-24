@@ -1,8 +1,18 @@
 import Image from "next/dist/client/image";
+import Head from "next/head";
 
 const Makeup = () => {
   return (
     <>
+      <Head>
+        <title>Makeup | Salong Orchid | Stylist Stockholm </title>
+        <meta name="author" content="Julius Alamarvdashti" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta
+          name="description"
+          content="Här kan du se exempel på smink som jag har gjort. | Here you can see examples of makeup that I have done."
+        />
+      </Head>
       <section className=" font-bold text-purple-500 text-center px-10 nails-hair">
         <section className="  pb-20 pt-2 ">
           <span className=" text-sm md:text-base lg:text-xl ">

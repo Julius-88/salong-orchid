@@ -1,8 +1,18 @@
 import Image from "next/dist/client/image";
+import Head from "next/head";
 
 const Easter = () => {
   return (
     <>
+      <Head>
+        <title>Midsummer Theme | Salong Orchid | Stylist Stockholm </title>
+        <meta name="author" content="Julius Alamarvdashti" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta
+          name="description"
+          content="Här kan du se olika exempel på nagel-, hår- och sminkstilar med midsommar tema som jag har gjort | Here you can see different examples of midsummer themed nail,hair and makeup styles that I have done."
+        />
+      </Head>
       <section className=" font-bold text-purple-500 text-center  flex flex-col items-center py-10 px-10 midsummer">
         <section className="flex flex-col items-start">
           <span className=" text-sm md:text-base lg:text-xl bg-pink-200 ">
