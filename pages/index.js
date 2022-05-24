@@ -29,7 +29,7 @@ export default function Home() {
           </p>
           <br />
           <p>
-            Please browse my website to see what I have to offer and dont
+            Please browse my website to see what I have to offer and do not
             hesitate to contact me if you have any questions
           </p>
         </div>
