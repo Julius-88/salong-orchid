@@ -8,47 +8,42 @@
 }
 
 .wedding {
-  /* background-image: url("/bröllop-bakgrund.jpeg"); */
+  background-image: url("/orchidWedding.jpeg");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
   background-color: white;
-  height: 100vh;
 }
 .easter {
-  /* background-image: url("/easter-bakgrund.jpeg"); */
+  background-image: url("/orchidEaster.jpeg");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
   background-color: white;
-  height: 100vh;
 }
 .halloween {
-  /* background-image: url("/halloween-bakgrund.jpeg"); */
+  background-image: url("/orchidHalloween.jpeg");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
   background-color: white;
-  height: 100vh;
 }
-.midsommar {
-  /* background-image: url("/midsommar-bakgrund.jpeg"); */
+.midsummer {
+  background-image: url("/orchidMidsummer.jpeg");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
   background-color: white;
-  height: 100vh;
 }
 .nails-hair {
-  /* background-image: url("/smink-naglar-bakgrund.jpeg"); */
+  background-image: url("/orchidNailsMakeup.jpeg");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
   background-color: white;
-  height: 100vh;
 }
