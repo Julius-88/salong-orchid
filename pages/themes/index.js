@@ -15,7 +15,7 @@ const Themes = () => {
         />
       </Head>
       <section className="grid grid-cols-2 px-3 md:grid-cols-3 pt-20 pb-16 gap-2 md:gap-20 2xl:gap-20">
-        <div className="grid justify-items-center">
+        <div className="grid justify-items-center shadow-2xl shadow-indigo-900/50">
           <Link href="/themes/wedding">
             <a>
               <div>
@@ -31,7 +31,7 @@ const Themes = () => {
           </Link>
           <p className="cursor-default">Wedding</p>
         </div>
-        <div className="grid justify-items-center">
+        <div className="grid justify-items-center shadow-2xl shadow-indigo-900/50">
           <Link href="/themes/easter">
             <a>
               <Image
@@ -45,7 +45,7 @@ const Themes = () => {
           </Link>
           <p className="cursor-default">Easter</p>
         </div>
-        <div className="grid justify-items-center">
+        <div className="grid justify-items-center shadow-2xl shadow-indigo-900/50">
           <Link href="/themes/halloween">
             <a>
               <Image
@@ -59,7 +59,7 @@ const Themes = () => {
           </Link>
           <p className="cursor-default">Halloween</p>
         </div>
-        <div className="grid justify-items-center">
+        <div className="grid justify-items-center shadow-2xl shadow-indigo-900/50">
           <Link href="/themes/midsommar">
             <a>
               <Image
@@ -73,7 +73,7 @@ const Themes = () => {
           </Link>
           <p className="cursor-default">Midsummer</p>
         </div>
-        <div className="grid justify-items-center">
+        <div className="grid justify-items-center shadow-2xl shadow-indigo-900/50">
           <Link href="/themes/nails">
             <a>
               <Image
@@ -87,7 +87,7 @@ const Themes = () => {
           </Link>
           <p className="cursor-default">Nails</p>
         </div>
-        <div className="grid justify-items-center">
+        <div className="grid justify-items-center shadow-2xl shadow-indigo-900/50">
           <Link href="/themes/hair">
             <a>
               <Image
@@ -101,7 +101,7 @@ const Themes = () => {
           </Link>
           <p className="cursor-default">Hair</p>
         </div>
-        <div className="grid justify-items-center">
+        <div className="grid justify-items-center shadow-2xl shadow-indigo-900/50">
           <Link href="/themes/makeup">
             <a>
               <Image

@@ -15,7 +15,7 @@ const Wedding = () => {
       </Head>
       <section className=" font-bold text-purple-500 text-center  flex flex-col items-center py-10 px-10 wedding">
         <section className="flex flex-col items-start">
-          <span className=" text-sm md:text-base lg:text-xl ">
+          <span className=" text-sm md:text-base lg:text-xl bg-pink-200 rounded p-1 ">
             Examples of Hairstyles
           </span>
           <div className="horizontal-scroll md:auto-cols-fr">
@@ -65,8 +65,10 @@ const Wedding = () => {
           </div>
         </section>
         <section className="flex flex-col items-start">
-          <span className=" text-sm md:text-base lg:text-xl pt-5 ">
-            Examples of Makeup Styles
+          <span className=" text-sm md:text-base lg:text-xl pt-5  ">
+            <span className="bg-pink-200 rounded p-1">
+              Examples of Makeup Styles
+            </span>
           </span>
           <div className="horizontal-scroll md:auto-cols-fr">
             <figure>
@@ -114,7 +116,10 @@ const Wedding = () => {
         </section>
         <section className="flex flex-col items-start pb-10">
           <span className=" text-sm md:text-base lg:text-xl pt-5">
-            Example of Nail Styles{" "}
+            <span className="bg-pink-200 rounded p-1">
+              {" "}
+              Example of Nail Styles
+            </span>
           </span>
           <div className="horizontal-scroll md:auto-cols-fr  ">
             <figure>

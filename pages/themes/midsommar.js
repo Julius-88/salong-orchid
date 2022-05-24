@@ -15,7 +15,7 @@ const Easter = () => {
       </Head>
       <section className=" font-bold text-purple-500 text-center  flex flex-col items-center py-10 px-10 midsummer">
         <section className="flex flex-col items-start">
-          <span className=" text-sm md:text-base lg:text-xl bg-pink-200 ">
+          <span className=" text-sm md:text-base lg:text-xl bg-pink-200 rounded p-1 ">
             Examples of Makeup Styles
           </span>
           <div className="horizontal-scroll md:auto-cols-fr ">
@@ -56,7 +56,9 @@ const Easter = () => {
 
         <section className="flex flex-col items-start pb-10">
           <span className=" text-sm md:text-base lg:text-xl pt-5">
-            <span className="bg-pink-200">Example of Nail Styles </span>
+            <span className="bg-pink-200 rounded p-1">
+              Example of Nail Styles{" "}
+            </span>
           </span>
           <div className="horizontal-scroll md:auto-cols-fr  ">
             <figure>
