@@ -13,7 +13,7 @@ const Wedding = () => {
           content="Här kan du se olika exempel på nagel-, hår- och sminkstilar för bröllop som jag har gjort | Here you can see different examples of wedding themed nail,hair and makeup styles that I have done."
         />
       </Head>
-      <section className=" font-bold text-purple-500 text-center  flex flex-col items-center py-10 px-10 wedding">
+      <section className=" font-bold text-purple-500 text-center  flex flex-col items-center h-full wedding">
         <section className="flex flex-col items-start">
           <span className=" text-sm md:text-base lg:text-xl bg-pink-200 rounded p-1 ">
             Examples of Hairstyles
@@ -30,7 +30,7 @@ const Wedding = () => {
               ></Image>
             </figure>
 
-            <figure>
+            {/* <figure>
               {" "}
               <Image
                 src="/weddingHairOne.jpg"
@@ -39,9 +39,9 @@ const Wedding = () => {
                 height={400}
                 className="object-cover"
               ></Image>
-            </figure>
+            </figure> */}
 
-            <figure>
+            {/* <figure>
               {" "}
               <Image
                 src="/weddingHairTwo.jpg"
@@ -50,9 +50,9 @@ const Wedding = () => {
                 height={400}
                 className="object-cover"
               ></Image>
-            </figure>
+            </figure> */}
 
-            <figure>
+            {/* <figure>
               {" "}
               <Image
                 src="/weddingHairThree.jpg"
@@ -61,10 +61,10 @@ const Wedding = () => {
                 height={400}
                 className="object-cover"
               ></Image>
-            </figure>
+            </figure> */}
           </div>
         </section>
-        <section className="flex flex-col items-start">
+        {/* <section className="flex flex-col items-start">
           <span className=" text-sm md:text-base lg:text-xl pt-5  ">
             <span className="bg-pink-200 rounded p-1">
               Examples of Makeup Styles
@@ -113,8 +113,8 @@ const Wedding = () => {
               ></Image>
             </figure>
           </div>
-        </section>
-        <section className="flex flex-col items-start pb-10">
+        </section> */}
+        {/* <section className="flex flex-col items-start pb-10">
           <span className=" text-sm md:text-base lg:text-xl pt-5">
             <span className="bg-pink-200 rounded p-1">
               {" "}
@@ -155,18 +155,9 @@ const Wedding = () => {
               ></Image>
             </figure>
 
-            {/* <figure>
-              {" "}
-              <Image
-                src="/previewNaglar.jpg"
-                alt="#"
-                width={250}
-                height={400}
-                className="object-cover"
-              ></Image>
-            </figure> */}
+            
           </div>
-        </section>
+        </section> */}
       </section>
     </>
   );
