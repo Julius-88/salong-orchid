@@ -30,7 +30,7 @@ const Makeup = () => {
               ></Image>
             </figure>
 
-            <figure>
+            {/* <figure>
               {" "}
               <Image
                 src="/easterMakeupOne.jpg"
@@ -39,9 +39,9 @@ const Makeup = () => {
                 height={400}
                 className="object-cover"
               ></Image>
-            </figure>
+            </figure> */}
 
-            <figure>
+            {/* <figure>
               {" "}
               <Image
                 src="/easterMakeupTwo.jpg"
@@ -50,7 +50,7 @@ const Makeup = () => {
                 height={400}
                 className="object-cover"
               ></Image>
-            </figure>
+            </figure> */}
 
             <figure>
               {" "}
@@ -72,7 +72,7 @@ const Makeup = () => {
                 className="object-cover"
               ></Image>
             </figure>
-            <figure>
+            {/* <figure>
               {" "}
               <Image
                 src="/halloweenMakeupThree.jpg"
@@ -81,8 +81,8 @@ const Makeup = () => {
                 height={400}
                 className="object-cover"
               ></Image>
-            </figure>
-            <figure>
+            </figure> */}
+            {/* <figure>
               {" "}
               <Image
                 src="/halloweenMakeupFour.jpg"
@@ -91,8 +91,8 @@ const Makeup = () => {
                 height={400}
                 className="object-cover"
               ></Image>
-            </figure>
-            <figure>
+            </figure> */}
+            {/* <figure>
               {" "}
               <Image
                 src="/halloweenMakeupFive.jpg"
@@ -101,8 +101,8 @@ const Makeup = () => {
                 height={400}
                 className="object-cover"
               ></Image>
-            </figure>
-            <figure>
+            </figure> */}
+            {/* <figure>
               {" "}
               <Image
                 src="/midsummerMakeupTwo.jpg"
@@ -111,8 +111,8 @@ const Makeup = () => {
                 height={400}
                 className="object-cover"
               ></Image>
-            </figure>
-            <figure>
+            </figure> */}
+            {/* <figure>
               {" "}
               <Image
                 src="/weddingMakeup.jpg"
@@ -121,8 +121,8 @@ const Makeup = () => {
                 height={400}
                 className="object-cover"
               ></Image>
-            </figure>
-            <figure>
+            </figure> */}
+            {/* <figure>
               {" "}
               <Image
                 src="/weddingMakeupOne.jpg"
@@ -131,8 +131,8 @@ const Makeup = () => {
                 height={400}
                 className="object-cover"
               ></Image>
-            </figure>
-            <figure>
+            </figure> */}
+            {/* <figure>
               {" "}
               <Image
                 src="/weddingMakeupTwo.jpg"
@@ -141,8 +141,8 @@ const Makeup = () => {
                 height={400}
                 className="object-cover"
               ></Image>
-            </figure>
-            <figure>
+            </figure> */}
+            {/* <figure>
               {" "}
               <Image
                 src="/weddingMakeupThree.jpg"
@@ -151,7 +151,7 @@ const Makeup = () => {
                 height={400}
                 className="object-cover"
               ></Image>
-            </figure>
+            </figure> */}
             <figure>
               {" "}
               <Image
@@ -161,6 +161,7 @@ const Makeup = () => {
                 height={400}
                 className="object-cover"
               ></Image>
+              <figcaption>Smokey Eye</figcaption>
             </figure>
             <figure>
               {" "}
@@ -171,6 +172,7 @@ const Makeup = () => {
                 height={400}
                 className="object-cover"
               ></Image>
+              <figcaption>Smokey Eye</figcaption>
             </figure>
           </div>
         </section>

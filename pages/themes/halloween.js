@@ -13,7 +13,7 @@ const Halloween = () => {
           content="Här kan du se olika exempel på nagel-, hår- och sminkstilar med halloween tema som jag har gjort | Here you can see different examples of halloween themed nail,hair and makeup styles that I have done."
         />
       </Head>
-      <section className=" font-bold text-purple-500 text-center  flex flex-col items-center py-10 px-10 halloween">
+      <section className=" font-bold text-purple-500 text-center  flex flex-col items-center h-full py-10 px-10 halloween">
         <section className="flex flex-col items-start">
           <span className=" text-sm md:text-base lg:text-xl bg-pink-200 rounded p-1">
             Examples of Makeup Styles
@@ -41,7 +41,7 @@ const Halloween = () => {
               ></Image>
             </figure>
 
-            <figure>
+            {/* <figure>
               {" "}
               <Image
                 src="/halloweenMakeupThree.jpg"
@@ -50,9 +50,9 @@ const Halloween = () => {
                 height={400}
                 className="object-cover"
               ></Image>
-            </figure>
+            </figure> */}
 
-            <figure>
+            {/* <figure>
               {" "}
               <Image
                 src="/halloweenMakeupFour.jpg"
@@ -61,8 +61,8 @@ const Halloween = () => {
                 height={400}
                 className="object-cover"
               ></Image>
-            </figure>
-            <figure>
+            </figure> */}
+            {/* <figure>
               {" "}
               <Image
                 src="/halloweenMakeupFive.jpg"
@@ -71,11 +71,11 @@ const Halloween = () => {
                 height={400}
                 className="object-cover"
               ></Image>
-            </figure>
+            </figure> */}
           </div>
         </section>
 
-        <section className="flex flex-col items-start pb-10">
+        {/* <section className="flex flex-col items-start pb-10">
           <span className=" text-sm md:text-base lg:text-xl pt-5">
             <span className="bg-pink-200 rounded p-1">
               {" "}
@@ -116,7 +116,7 @@ const Halloween = () => {
               ></Image>
             </figure>
           </div>
-        </section>
+        </section> */}
       </section>
     </>
   );
