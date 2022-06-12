@@ -20,7 +20,7 @@ const Themes = () => {
             <a>
               <div>
                 <Image
-                  src="/previewWedding.jpg"
+                  src="/weddingHair.jpeg"
                   alt="a before and after picture of a bride"
                   width={200}
                   height={250}

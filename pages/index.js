@@ -40,7 +40,7 @@ export default function Home() {
               <a>
                 <div>
                   <Image
-                    src="/previewWedding.jpg"
+                    src="/weddingHair.jpeg"
                     alt="a before and after picture of a bride"
                     width={200}
                     height={250}
@@ -51,7 +51,7 @@ export default function Home() {
             </Link>
             <p className="cursor-default">Wedding</p>
           </div>
-          <div className="grid justify-items-center shadow-2xl shadow-indigo-900/50">
+          {/* <div className="grid justify-items-center shadow-2xl shadow-indigo-900/50">
             <Link href="/themes/easter">
               <a>
                 <Image
@@ -64,12 +64,12 @@ export default function Home() {
               </a>
             </Link>
             <p className="cursor-default">Easter</p>
-          </div>
+          </div> */}
           <div className="grid justify-items-center shadow-2xl shadow-indigo-900/50">
             <Link href="/themes/halloween">
               <a>
                 <Image
-                  src="/previewHalloween.jpg"
+                  src="/halloweenMakeup.jpg"
                   alt="a picture of a woman with halloween makeup"
                   width={200}
                   height={250}
@@ -79,7 +79,7 @@ export default function Home() {
             </Link>
             <p className="cursor-default">Halloween</p>
           </div>
-          <div className="grid justify-items-center shadow-2xl shadow-indigo-900/50">
+          {/* <div className="grid justify-items-center shadow-2xl shadow-indigo-900/50">
             <Link href="/themes/midsommar">
               <a>
                 <Image
@@ -92,8 +92,8 @@ export default function Home() {
               </a>
             </Link>
             <p className="cursor-default">Midsummer</p>
-          </div>
-          <div className="grid justify-items-center shadow-2xl shadow-indigo-900/50">
+          </div> */}
+          {/* <div className="grid justify-items-center shadow-2xl shadow-indigo-900/50">
             <Link href="/themes/nails">
               <a>
                 <Image
@@ -106,8 +106,8 @@ export default function Home() {
               </a>
             </Link>
             <p className="cursor-default">Nails</p>
-          </div>
-          <div className="grid justify-items-center shadow-2xl shadow-indigo-900/50">
+          </div> */}
+          {/* <div className="grid justify-items-center shadow-2xl shadow-indigo-900/50">
             <Link href="/themes/hair">
               <a>
                 <Image
@@ -120,12 +120,12 @@ export default function Home() {
               </a>
             </Link>
             <p className="cursor-default">Hair</p>
-          </div>
+          </div> */}
           <div className="grid justify-items-center shadow-2xl shadow-indigo-900/50">
             <Link href="/themes/makeup">
               <a>
                 <Image
-                  src="/midsummerMakeupTwo.jpg"
+                  src="/smokeyEye.jpeg"
                   alt="a picture of a girl with makeup on for midsummer"
                   width={200}
                   height={250}
